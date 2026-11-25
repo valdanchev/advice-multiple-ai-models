@@ -1,0 +1,3 @@
+trials 14112; participants 441 by condition {'T1': 111, 'C1': 110, 'T2': 110, 'C2': 110}
+unmatched option values: {'init': 0, 'final': 0}; missing: {'init': 0, 'final': 6}
+configurations by item: {'2C1W': 12, '1C2W-split': 8, '3C': 4, '1C2W-agree': 4, '0C3W-2+1': 3, '0C3W-split': 1}

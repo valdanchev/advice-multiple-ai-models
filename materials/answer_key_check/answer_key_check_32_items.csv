@@ -1,0 +1,317 @@
+item,subject,question,options,key,ai_screen,check_or_evidence,author_verdict,author_note
+5529,global facts,"As of 2016, about what percentage of adults aged 18 years or older were overweight?","A. 100%
+B. 40%
+C. 50%
+D. 20%
+E. 70%
+F. 30%
+G. 60%
+H. 90%
+I. 80%
+J. 10%",B. 40%,ok,WHO: 39% of adults aged 18+ were overweight in 2016; nearest option 40% (key B).,ok,
+5226,global facts,"As of 2019, unsafe water is responsible for about how many deaths each year?","A. 5 million
+B. 9 million
+C. 6.4 million
+D. 500,000
+E. 1.2 million
+F. 7.2 million
+G. 2.4 million
+H. 800,000
+I. 4.8 million
+J. 3.6 million",E. 1.2 million,ok,IHME / Our World in Data: unsafe water sources linked to about 1.2m deaths in 2019 (key E).,ok,
+5750,global facts,Which of the following countries generated the most total energy from solar sources in 2019?,"A. India
+B. France
+C. Australia
+D. United States
+E. Germany
+F. United Kingdom
+G. Japan
+H. China
+I. Italy
+J. Spain",H. China,ok,China was the largest solar generator in 2019 (key H).,ok,
+5533,global facts,What is the median international income as of 2020?,"A. $300 
+B. $15,000
+C. $1,000 
+D. $10,000 
+E. $40,000
+F. $30,000 
+G. $20,000
+H. $25,000
+I. $50,000
+J. $5,000","D. $10,000 ",check source,"Gallup World Poll (2013): global median household income about $9,733, which matches D ($10,000); median per-person income about $2,920, which matches no option. The stem says 2020 and 'international income' without saying household or per person.",ok,
+5678,global facts,"As of 2017, what fraction of the population in India used the internet in the past three months?","A. 37%
+B. 33%
+C. 22%
+D. 60%
+E. 15%
+F. 48%
+G. 56%
+H. 41%
+I. 11%
+J. 26%",J. 26%,check source,Pew (2018): 25% of Indian adults use the internet. ITU's 'used the internet in the past three months' figure for India in 2017 is about 34% in later revisions.,ambiguous,UN data says 18.2% https://data.un.org/Data.aspx?q=India&d=ITU&f=ind1Code%3AI99H%3BcountryCode%3AIND
+5312,global facts,"As of 2013, which of the following countries had the highest per capita rate of homelessness?","A. South Africa
+B. Canada
+C. Russia
+D. Sweden
+E. Australia
+F. US
+G. Chile
+H. Ireland
+I. Spain
+J. Japan",F. US,check source,Cross-national homelessness rates depend on definitions. In OECD figures Australia (E) and Sweden (D) report higher per-capita rates than the US (key F).,ambiguous,"0.19% is often cited and this is lower to other countries such as South Africa, Russia, Australia."
+5883,global facts,Which of the following causes more deaths globally each year (as of 2017)?,"A. Malaria
+B. Malnutrition
+C. Tuberculosis
+D. Diarrheal diseases
+E. Influenza
+F. Road injuries
+G. Diabetes
+H. HIV/AIDS
+I. Alcohol-related diseases
+J. Dementia",J. Dementia,ok (note),"Our World in Data / IHME causes of death 2017: dementia about 2.5m, above diarrhoeal diseases (1.6m), diabetes (1.4m), road injuries (1.2m) and TB (1.2m). As a risk factor, alcohol is linked to about 2.8m deaths, which is why one model chose I.",ok,
+5311,global facts,The percentage of children in Ethiopia (age 8) who reported physical punishment by teachers in the past week in 2009 was about what?,"A. 38%
+B. 48%
+C. 18%
+D. 58%
+E. 68%
+F. 88%
+G. 8%
+H. 98%
+I. 78%
+J. 28%",A. 38%,ok,Young Lives Ethiopia 2009 gives about 38% (key A).,ok,
+8705,college mathematics,The maximum number of acute angles in a convex 10-gon in the Euclidean plane is,"A. 3
+B. 2
+C. 7
+D. 9
+E. 4
+F. 6
+G. 1
+H. 5
+I. 8
+J. 10",A. 3,ok,A convex polygon has at most 3 acute angles (exterior angles sum to 360 degrees).,ok,
+8703,college mathematics,A discrete graph is complete if there is an edge connecting any pair of vertices. How many edges does a complete graph with 10 vertices have?,"A. 60
+B. 35
+C. 90
+D. 20
+E. 50
+F. 25
+G. 100
+H. 55
+I. 10
+J. 45",J. 45,ok,"Computed: C(10,2) = 45 (key J).",ok,
+8152,college mathematics,For how many positive integers k does the ordinary decimal representation of the integer k! end in exactly 99 zeros?,"A. Twenty
+B. Three
+C. None
+D. Four
+E. Five
+F. Two
+G. Seven
+H. Ten
+I. Fifteen
+J. One",E. Five,ok,Computed: k = 400-404 give exactly 99 trailing zeros: five values (key E).,ok,
+8153,college mathematics,What is the largest order of an element in the group of permutations of 5 objects?,"A. 20
+B. 25
+C. 10
+D. 6
+E. 7
+F. 12
+G. 30
+H. 11
+I. 5
+J. 15",D. 6,ok,"The largest element order in S5 is lcm(2,3) = 6 (key D).",ok,
+8041,college mathematics,Suppose today is Wednesday. What day of the week will it be 10^(10^(10)) days from now?,"A. Sunday
+B. Wednesday
+C. Tuesday
+D. Saturday
+E. The day of the week cannot be determined
+F. There will be no day of the week because the world will have ended
+G. Every day of the week, as the cycle will have repeated itself multiple times
+H. Thursday
+I. Monday
+J. Friday",A. Sunday,ok,"Computed: 10^(10^10) mod 7 = 4, so Wednesday + 4 = Sunday (key A).",ok,
+7730,college mathematics,The shortest distance from the curve xy = 8 to the origin is,"A. 4
+B. 2sqrt(2)
+C. sqrt(8)
+D. sqrt(4)
+E. 1
+F. 4sqrt(2)
+G. 8
+H. 2
+I. 16
+J. 6",A. 4,ok,"x^2 + y^2 >= 2xy = 16, so the minimum distance is 4 (key A).",ok,
+8574,college mathematics,"Let f(x,y) = x^2 - 2xy + y^3 for all real x and y. Which of the following is true?","A. f has all of its relative extrema on the line y = x^2.
+B. f has all of its relative extrema on the line x = y.
+C. f has all of its relative extrema on the line x = 2y.
+D. f has a relative maximum at (0, 0).
+E. f has an absolute maximum at (2/3, 2/3).
+F. f has an absolute minimum at (0, 0).
+G. f has an absolute minimum at (2/3, 2/3).
+H. f has a relative minimum at (0, 0).
+I. f has a relative minimum at (2/3, 2/3).
+J. f has all of its relative extrema on the parabola x = y^2.",B. f has all of its relative extrema on the line x = y.,ambiguous,"Computed: the critical points are (0,0) and (2/3,2/3). The Hessian test gives a saddle at (0,0) and a relative minimum at (2/3,2/3).",ambiguous,
+7832,college mathematics,"A large class is to be divided into teams and each student must be a member of exactly one team. However, each student dislikes three of their classmates. Dislike between students need not be mutual. If the teams do not need to be equally sized, how many must be created so that no student is the teammate of someone they dislike?","A. 9
+B. 10
+C. 7
+D. 5
+E. 11
+F. 6
+G. 13
+H. 4
+I. 14
+J. 8",C. 7,ok,"Each student dislikes 3 others, so the dislike graph is 6-degenerate and 7 teams always suffice; 7 students who each dislike 3 others in a regular tournament need 7. Key C.",ok,
+646,business,"ABC Publications bought 50 reams of paper at $2.76 a ream, with a 50-10% discount . A further discount of 1% is given if payment is received within 10 days from the date of purchase. What was the amount paid if the cash discount was taken?","A. $65.55
+B. $61.48
+C. $124.20
+D. $58.34
+E. $138.00
+F. $66.99
+G. $69.00
+H. $62.10
+I. $72.80
+J. $131.10",B. $61.48,ok,Computed: 50 x $2.76 = $138; less 50% and 10% = $62.10; less 1% = $61.48 (key B).,ok,
+477,business,Joe's Department Store wishes to sell a coat with a 20% margin on the selling price. The cost of thecoatis $40. Find their selling price.,"A. $48
+B. $58
+C. $52
+D. $65
+E. $55
+F. $45
+G. $75
+H. $50
+I. $60
+J. $70",H. $50,ok,Computed: $40 / (1 - 0.20) = $50 (key H).,ok,
+671,business,"Frank Bryant is a salesman for the Fast Cool Refrigerator Co. He is compensated for all travel expenses, and is allowed a drawing account of $600 per month. He receives a monthly commission of 2% of his first $30,000 of sales, 2.5% of the next $10,000 of sales, and 3% of all sales in excess of $40,000. Find the amount due him for a month in which his travel expenses paid out of pocket are $332.75, his drawings are $600, and his sales total $41,180.","A. $1,332.75
+B. $942.55
+C. $783.40
+D. $618.15
+E. $725.15
+F. $1,035.40
+G. $885.40
+H. $1,118.15
+I. $1,218.15
+J. $332.75",D. $618.15,ok,"Computed: commission $600 + $250 + $35.40 = $885.40; plus expenses $332.75, less drawings $600 = $618.15 (key D).",ok,
+638,business,"Mr. Jackson bought his house in 1995, and financed the loan for 30 years at an interest rate of 7.8%. His monthly payment was $1260. In 2015, Mr. Jackson decides to pay off the loan. Find the balance of the loan he still owes.","A. 90000.00
+B. 98000.00
+C. 125678.90
+D. 110000.00
+E. 120000.00
+F. 115245.67
+G. 104761.48
+H. 135000.00
+I. 140000.00
+J. 150000.00",G. 104761.48,ok,"Computed: loan principal $175,031; balance after 20 years $104,761.34, matching G ($104,761.48, rounding).",ok,
+600,business,Pauline Key earns $3.50 per hour. She is paid time and a half for all hours worked over 40 per week and double the regular rate for Sunday worked. Last week she worked 48 hours during the regular week and 4(1/2) hours on Sunday. What were her gross earnings for the week?,"A. $199.75
+B. $220.75
+C. $176.00
+D. $182.50
+E. $235.00
+F. $213.50
+G. $244.50
+H. $229.00
+I. $207.25
+J. $195.00",F. $213.50,ok,Computed: 40 x $3.50 + 8 x $5.25 + 4.5 x $7.00 = $213.50 (key F).,ok,
+799,business,"Ms. Chen purchased a used car, worth $1650, on the installment plan, paying $50 down and $1,840 in monthly installment payments over a period of two years. What annual interest rate did she pay?","A. 10%
+B. 17.5%
+C. 15.2%
+D. 13.3%
+E. 20%
+F. 19.8%
+G. 18%
+H. 16%
+I. 12%
+J. 14.4%",J. 14.4%,ok (note),"Computed: finance charge $240 on $1,600 over 24 months. The constant-ratio formula gives exactly 14.4% (key J); the actuarial APR is 13.8%, which matches no option exactly.",ok,
+599,business,A plot of land 100 feet by 40 feet is sold for $75 a front foot. Compute the gross selling price. The broker receives a 7(1/2)% commission. Find the net selling price.,"A. $3,225.00
+B. $75
+C. $2,625.00
+D. $7,500.00
+E. $2,850.00
+F. $2,775.00
+G. $3,000
+H. $2,925.00
+I. $3,150.00
+J. $225","F. $2,775.00",ok (note),"Computed: with 40 ft of frontage, gross = 40 x $75 = $3,000, commission 7.5% = $225, net = $2,775 (key F). With 100 ft of frontage the net ($6,937.50) is not an option.",ok,
+612,business,Charles will pay Bernice $800 five years from now if she lends him $500 now. What is the rate of return on the $500 loan?,"A. 13.86%
+B. 5.86%
+C. 11.86%
+D. 10.86%
+E. 12.86%
+F. 14.86%
+G. 9.86%
+H. 8.86%
+I. 7.86%
+J. 6.86%",G. 9.86%,ok,Computed: (800/500)^(1/5) - 1 = 9.86% (key G).,ok,
+6191,health and nutrition,Which of the following vitamins is required for fatty acid b-oxidation?,"A. Vitamin C
+B. Vitamin E
+C. Vitamin B12
+D. Thiamin
+E. Riboflavin
+F. Folic Acid
+G. Vitamin D
+H. Vitamin K
+I. Biotin",E. Riboflavin,ok (note),"Riboflavin (as FAD) is the standard answer for beta-oxidation. Strictly, odd-chain fatty acids also need biotin and B12 to complete their oxidation, but the textbook answer is riboflavin.",ok,
+6630,health and nutrition,Which of the following statements about the diets and nutritional status of older people is correct?,"A. Older people generally have a lower energy intake than younger adults.
+B. Older people tend to consume more protein than younger adults.
+C. Older people have a higher energy intake than younger adults.
+D. Multiple micronutrient deficiencies are rare in older people in high-income countries.
+E. There is little variation in the dietary intake between older people.
+F. Reports suggest that older people consume less than the recommended contribution of fat to energy intake.
+G. Multiple micronutrient deficiencies are widespread in older people in high-income countries.
+H. Older people generally consume more than the recommended contribution of fat to energy intake.",A. Older people generally have a lower energy intake than younger adults.,check source,A (older people have lower energy intake) is true. D ('multiple micronutrient deficiencies are rare in older people in high-income countries') may also be the textbook position; G says the opposite.,ok,
+6061,health and nutrition,Which of these factors increases the risk for lung cancer?,"A. Saturated fat
+B. High fiber diet
+C. Eating citrus fruits
+D. Alcohol
+E. Lack of physical activity
+F. Low protein intake
+G. Vitamin D deficiency
+H. Obesity
+I. High dose ß-carotene supplements
+J. Drinking green tea",I. High dose ß-carotene supplements,ok,"High-dose beta-carotene supplements increased lung cancer risk in smokers (ATBC, CARET trials). Key I.",ok,
+6384,health and nutrition,"Since the 1996 World Food Summit, how has the number of food insecure people in the world changed?","A. The number doubled due to increases in global population.
+B. The number remained the same despite the Summit's efforts.
+C. The number decreased, but not by nearly enough to meet the Summit's goal.
+D. The number fluctuated wildly due to unpredictable factors like climate change and political unrest.
+E. The Summit's goal of cutting the number of hungry people in half by 2015 was achieved.
+F. The number increased moderately due to economic instability in certain regions.
+G. The number decreased dramatically due to successful implementation of the Summit's strategies.
+H. The number reduced to zero due to global cooperation in food production and distribution.
+I. Because of rising food prices, the number increased dramatically.
+J. The number increased slightly.","C. The number decreased, but not by nearly enough to meet the Summit's goal.",ok,FAO: the number of undernourished people fell after 1996 but far short of the Summit's goal of halving it. Key C.,ok,
+6064,health and nutrition,Which diseases are not less frequent among vegetarians?,"A. Colorectal cancer
+B. Hypertension
+C. Kidney stones
+D. Diabetes
+E. Respiratory diseases
+F. Stroke
+G. Ischaemic heart disease
+H. Obesity
+I. Diverticular disease",E. Respiratory diseases,ambiguous,"EPIC-Oxford (Tong et al., BMJ 2019): vegetarians had a 20% higher risk of stroke than meat-eaters (F also 'not less frequent'). Earlier EPIC-Oxford results (Key et al. 2009) found colorectal cancer no lower in vegetarians (A). The key E is respiratory diseases.",ambiguous,
+6634,health and nutrition,The function of the gastrointestinal tract can be classified in several ways. Which of the following functions is most important for survival immediately after a meal?,"A. Elimination of toxins
+B. Stimulation of appetite
+C. Maintenance of barrier function
+D. Extraction of maximum value from nutrients
+E. Control of blood sugar levels
+F. Production of hormones for growth and repair
+G. Regulation of body temperature
+H. Processing of food into a liquid form
+I. Absorption and retention of water and electrolytes
+J. Production of digestive enzymes",I. Absorption and retention of water and electrolytes,check source,"Textbook answer (Human Nutrition, Geissler & Powers): absorption and retention of water and electrolytes.",ok,
+6274,health and nutrition,The best available evidence for an association between amount of sugars and risk of dental caries comes from which type of study design?,"A. Case-control study
+B. Longitudinal study
+C. Non-randomised controlled
+D. Cross sectional observational
+E. Experimental study
+F. Meta-analysis
+G. Qualitative study
+H. Randomised controlled
+I. Cohort
+J. Ecological study",I. Cohort,ambiguous,"WHO-commissioned review (Moynihan & Kelly 2014): the best evidence on sugars and caries comes from cohort studies (key I). A cohort study is a longitudinal study, so B is also true.",ambiguous,
+6057,health and nutrition,The critical pH below which demineralisation of tooth enamel occurs is usually around:,"A. 6
+B. 5.2
+C. 6.2
+D. 5.5
+E. 4.8
+F. 4.5
+G. 6.5
+H. 5.7
+I. 5
+J. 7",D. 5.5,ok,Critical pH for enamel demineralisation is about 5.5 (key D).,ok,

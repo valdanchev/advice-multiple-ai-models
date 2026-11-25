@@ -1,0 +1,2 @@
+All files in this folder were produced from SIMULATED data (seed 20251017).
+They illustrate the pipeline and are not the results reported in the paper.

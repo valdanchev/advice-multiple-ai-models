@@ -1,0 +1,325 @@
+
+===== M1 coefficients 
+                  Estimate Std. Error    z value      Pr(>|z|)
+(Intercept)    -1.87542076 0.49554425 -3.7845677  1.539760e-04
+nlthree         0.87950071 0.35280763  2.4928620  1.267181e-02
+exexp2          0.13922945 0.08445713  1.6485222  9.924556e-02
+init_correct    4.14218575 0.11089980 37.3507069 2.469322e-305
+nlthree:exexp2 -0.09902522 0.11527812 -0.8590114  3.903342e-01
+NOTE: Results may be misleading due to involvement in interactions
+
+===== M1 effect (pp) 
+$cells
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.527 0.0496 Inf     0.429     0.624
+ three 0.617 0.0468 Inf     0.525     0.708
+
+Results are averaged over the levels of: ex, init_correct 
+Confidence level used: 0.95 
+
+$contrast
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   0.0901 0.0366 Inf    0.0183     0.162   2.461  0.0139
+
+Results are averaged over the levels of: ex, init_correct 
+Confidence level used: 0.95 
+
+
+===== M1 by experiment 
+$cells
+ex = exp1:
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.520 0.0494 Inf     0.423     0.616
+ three 0.614 0.0468 Inf     0.522     0.706
+
+ex = exp2:
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.534 0.0501 Inf     0.435     0.632
+ three 0.619 0.0473 Inf     0.526     0.712
+
+Results are averaged over the levels of: init_correct 
+Confidence level used: 0.95 
+
+$contrast
+ex = exp1:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   0.0948 0.0369 Inf    0.0223     0.167   2.565  0.0103
+
+ex = exp2:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   0.0855 0.0374 Inf    0.0122     0.159   2.286  0.0222
+
+Results are averaged over the levels of: init_correct 
+Confidence level used: 0.95 
+
+NOTE: Results may be misleading due to involvement in interactions
+
+===== M2 harm 
+$cells
+ nl      prob     SE  df asymp.LCL asymp.UCL
+ one   0.1558 0.0485 Inf    0.0606     0.251
+ three 0.0698 0.0245 Inf    0.0217     0.118
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+$contrast
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   -0.086 0.0266 Inf    -0.138   -0.0338  -3.229  0.0012
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+
+===== M2 harm by exp 
+$cells
+ex = exp1:
+ nl      prob     SE  df asymp.LCL asymp.UCL
+ one   0.1220 0.0411 Inf    0.0414     0.203
+ three 0.0672 0.0243 Inf    0.0196     0.115
+
+ex = exp2:
+ nl      prob     SE  df asymp.LCL asymp.UCL
+ one   0.1896 0.0583 Inf    0.0753     0.304
+ three 0.0723 0.0261 Inf    0.0211     0.124
+
+Confidence level used: 0.95 
+
+$contrast
+ex = exp1:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one  -0.0547 0.0220 Inf   -0.0978   -0.0116  -2.490  0.0128
+
+ex = exp2:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one  -0.1172 0.0368 Inf   -0.1894   -0.0451  -3.184  0.0015
+
+Confidence level used: 0.95 
+
+NOTE: Results may be misleading due to involvement in interactions
+
+===== M2 benefit 
+$cells
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.176 0.0656 Inf    0.0477     0.305
+ three 0.245 0.0837 Inf    0.0807     0.409
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+$contrast
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   0.0683 0.0207 Inf    0.0277     0.109   3.298  0.0010
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+
+===== M2 benefit by exp 
+$cells
+ex = exp1:
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.158 0.0604 Inf    0.0392     0.276
+ three 0.239 0.0828 Inf    0.0771     0.402
+
+ex = exp2:
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.195 0.0715 Inf    0.0551     0.335
+ three 0.250 0.0853 Inf    0.0828     0.417
+
+Confidence level used: 0.95 
+
+$contrast
+ex = exp1:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   0.0819 0.0263 Inf    0.0304    0.1334   3.118  0.0018
+
+ex = exp2:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   0.0547 0.0204 Inf    0.0147    0.0948   2.677  0.0074
+
+Confidence level used: 0.95 
+
+NOTE: Results may be misleading due to involvement in interactions
+
+===== M3 effect (pp) 
+$cells
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.513 0.0501 Inf     0.415     0.611
+ three 0.187 0.0306 Inf     0.127     0.247
+
+Results are averaged over the levels of: ex, model_m 
+Confidence level used: 0.95 
+
+$contrast
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   -0.326 0.0239 Inf    -0.373    -0.279 -13.649  <.0001
+
+Results are averaged over the levels of: ex, model_m 
+Confidence level used: 0.95 
+
+
+===== M3 by exp 
+$cells
+ex = exp1:
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.452 0.0516 Inf     0.350     0.553
+ three 0.185 0.0311 Inf     0.124     0.246
+
+ex = exp2:
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.575 0.0513 Inf     0.474     0.675
+ three 0.189 0.0316 Inf     0.127     0.251
+
+Results are averaged over the levels of: model_m 
+Confidence level used: 0.95 
+
+$contrast
+ex = exp1:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   -0.267 0.0274 Inf    -0.320    -0.213  -9.733  <.0001
+
+ex = exp2:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   -0.386 0.0274 Inf    -0.439    -0.332 -14.055  <.0001
+
+Results are averaged over the levels of: model_m 
+Confidence level used: 0.95 
+
+
+===== M4 adoption by what the others said 
+ others_f                     prob      SE  df asymp.LCL asymp.UCL
+ alone                      0.7114 0.01055 Inf    0.6908    0.7321
+ both correct               0.0328 0.00370 Inf    0.0256    0.0401
+ one correct, one different 0.1057 0.00666 Inf    0.0927    0.1188
+ one correct, one agrees    0.6919 0.01593 Inf    0.6607    0.7231
+ both wrong, none agree     0.0601 0.00709 Inf    0.0462    0.0740
+ both wrong, one agrees     0.7063 0.01678 Inf    0.6734    0.7392
+
+Results are averaged over the levels of: ex, model_m 
+Confidence level used: 0.95 
+
+===== M4 contrasts vs alone 
+ contrast                           estimate     SE  df asymp.LCL asymp.UCL
+ both correct - alone               -0.67861 0.0112 Inf   -0.7068   -0.6504
+ one correct, one different - alone -0.60573 0.0124 Inf   -0.6371   -0.5743
+ one correct, one agrees - alone    -0.01955 0.0187 Inf   -0.0667    0.0276
+ both wrong, none agree - alone     -0.65138 0.0127 Inf   -0.6834   -0.6194
+ both wrong, one agrees - alone     -0.00515 0.0195 Inf   -0.0544    0.0441
+ z.ratio p.value
+ -60.646  <.0001
+ -48.669  <.0001
+  -1.047  0.7069
+ -51.379  <.0001
+  -0.264  0.9912
+
+Results are averaged over the levels of: ex, model_m 
+Confidence level used: 0.95 
+Conf-level adjustment: dunnettx method for 5 estimates 
+P value adjustment: dunnettx method for 5 tests 
+
+===== M4 agree vs different (one correct) 
+ contrast                   estimate     SE  df asymp.LCL asymp.UCL z.ratio
+ agree_minus_diff              0.586 0.0157 Inf     0.555     0.617  37.256
+ bothwrong_agree_minus_none    0.646 0.0173 Inf     0.612     0.680  37.312
+ p.value
+  <.0001
+  <.0001
+
+Results are averaged over the levels of: ex, model_m 
+Confidence level used: 0.95 
+NOTE: Results may be misleading due to involvement in interactions
+
+===== M5 follow_wrong 
+$cells
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.516 0.0628 Inf     0.393     0.639
+ three 0.182 0.0374 Inf     0.108     0.255
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+$contrast
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   -0.334 0.0282 Inf    -0.389    -0.279 -11.849  <.0001
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+
+===== M5 by exp 
+$cells
+ex = exp1:
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.460 0.0641 Inf     0.334     0.586
+ three 0.180 0.0376 Inf     0.106     0.254
+
+ex = exp2:
+ nl     prob     SE  df asymp.LCL asymp.UCL
+ one   0.572 0.0634 Inf     0.447     0.696
+ three 0.183 0.0382 Inf     0.109     0.258
+
+Confidence level used: 0.95 
+
+$contrast
+ex = exp1:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   -0.280 0.0313 Inf    -0.341    -0.219  -8.943  <.0001
+
+ex = exp2:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   -0.388 0.0306 Inf    -0.448    -0.328 -12.664  <.0001
+
+Confidence level used: 0.95 
+
+
+===== M6 reasoning within controls (M5, M3) 
+$M5
+nl = one:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ exp2 - exp1  0.11152 0.0227 Inf    0.0671    0.1560   4.920  <.0001
+
+nl = three:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ exp2 - exp1  0.00355 0.0121 Inf   -0.0201    0.0272   0.294  0.7689
+
+Confidence level used: 0.95 
+
+$M3
+nl = one:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ exp2 - exp1  0.12306 0.0236 Inf    0.0768    0.1693   5.214  <.0001
+
+nl = three:
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ exp2 - exp1  0.00393 0.0129 Inf   -0.0213    0.0291   0.306  0.7598
+
+Results are averaged over the levels of: model_m 
+Confidence level used: 0.95 
+
+
+===== M7 brand 
+nl = one:
+ gpt     prob     SE  df asymp.LCL asymp.UCL
+ GPT-4o 0.451 0.0908 Inf     0.273     0.629
+ other  0.542 0.0612 Inf     0.422     0.662
+
+nl = three:
+ gpt     prob     SE  df asymp.LCL asymp.UCL
+ GPT-4o 0.154 0.0464 Inf     0.063     0.245
+ other  0.204 0.0395 Inf     0.126     0.281
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+===== M7 GPT minus other 
+nl = one:
+ contrast         estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ other - (GPT-4o)   0.0905 0.1088 Inf    -0.123     0.304   0.832  0.4056
+
+nl = three:
+ contrast         estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ other - (GPT-4o)   0.0497 0.0605 Inf    -0.069     0.168   0.821  0.4119
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 

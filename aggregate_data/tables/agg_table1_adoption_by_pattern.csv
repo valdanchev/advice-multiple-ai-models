@@ -1,0 +1,7 @@
+n_llm,others,n_rows,n_adopted,adoption_rate
+1,alone,4333,3282,0.757
+3,both correct,2274,136,0.06
+3,"both wrong, none agree",1172,96,0.082
+3,"both wrong, one agrees",1166,972,0.834
+3,"one correct, one agrees",1578,1196,0.758
+3,"one correct, one different",2935,455,0.155

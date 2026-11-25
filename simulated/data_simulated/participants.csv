@@ -1,0 +1,442 @@
+pid,cond,file,duration_s,finished,education,gender,age,used_ai,conf_initial,ai_reliable,conf_updated
+S001,C1,a,1613.4,True,Bachelors or equivalent first degree qualification,Male,18 to 24,Yes,Confident,Unreliable,Very confident
+S002,C1,a,1337.3,True,Doctorate,Male,55 to 64,Yes,Neither confident nor unconfident,Reliable,Confident
+S003,C1,a,962.7,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S004,C1,a,2060.1,True,Professional degree,Male,35 to 44,Yes,Very confident,Unreliable,Very confident
+S005,C1,a,729.3,True,High school,Male,35 to 44,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S006,C1,a,982.0,True,High school,Male,55 to 64,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S007,C1,a,1453.4,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Confident,Reliable,Very confident
+S008,C1,a,1954.1,True,High school,Male,55 to 64,Yes,Very confident,Neither reliable nor unreliable,Very confident
+S009,C1,a,955.0,True,High school,Male,55 to 64,Yes,Very confident,Reliable,Very confident
+S010,C1,a,3164.5,True,High school,Male,35 to 44,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S011,C1,a,2414.3,True,High school,Male,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S012,C1,a,804.4,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S013,C1,a,1958.6,True,High school,Male,35 to 44,Yes,Confident,Neither reliable nor unreliable,Very confident
+S014,C1,a,1135.3,True,High school,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S015,C1,a,2102.0,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Confident,Neither reliable nor unreliable,Very confident
+S016,C1,a,1539.7,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Confident,Reliable,Very confident
+S017,C1,a,1425.9,True,High school,Female,45 to 54,No,Very confident,Reliable,Very confident
+S018,C1,a,1067.0,True,Masters or equivalent higher degree level qualification,Male,35 to 44,Yes,Confident,Neither reliable nor unreliable,Confident
+S019,C1,a,1291.0,True,Professional degree,Female,65 or over,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S020,C1,a,1701.1,True,High school,Female,25 to 34,Yes,Very confident,Reliable,Very confident
+S021,C1,a,1286.4,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Female,35 to 44,Yes,Neither confident nor unconfident,Very reliable,Neither confident nor unconfident
+S022,C1,a,1284.6,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Confident,Very unreliable,Very confident
+S023,C1,a,1522.1,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Neither confident nor unconfident,Reliable,Confident
+S024,C1,a,1203.0,True,Bachelors or equivalent first degree qualification,Male,65 or over,Yes,Neither confident nor unconfident,Very reliable,Confident
+S025,C1,a,1021.8,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S026,C1,a,736.7,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Female,35 to 44,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S027,C1,a,917.7,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Very unconfident,Very reliable,Unconfident
+S028,C1,a,720.0,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Very unconfident,Reliable,Very unconfident
+S029,C1,a,1251.7,True,High school,Male,65 or over,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S030,C1,a,2623.0,True,High school,Female,35 to 44,Yes,Confident,Reliable,Very confident
+S031,C1,a,1360.8,True,Doctorate,Female,35 to 44,Yes,Neither confident nor unconfident,Very reliable,Confident
+S032,C1,a,868.7,True,High school,Female,55 to 64,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S033,C1,a,1862.0,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S034,C1,a,1678.4,True,High school,Female,65 or over,Yes,Neither confident nor unconfident,Reliable,Confident
+S035,C1,a,1410.5,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Confident,Neither reliable nor unreliable,Very confident
+S036,C1,a,2181.2,True,Doctorate,Male,25 to 34,Yes,Very confident,Neither reliable nor unreliable,Very confident
+S037,C1,a,1720.5,True,High school,Female,18 to 24,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S038,C1,a,1432.4,True,High school,Male,55 to 64,Yes,Confident,Very reliable,Confident
+S039,C1,a,926.5,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S040,C1,a,1247.3,True,High school,Female,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S041,C1,a,1359.8,True,Masters or equivalent higher degree level qualification,Female,65 or over,Yes,Neither confident nor unconfident,Reliable,Confident
+S042,C1,a,1575.3,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Neither confident nor unconfident,Reliable,Confident
+S043,C1,a,1288.7,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S044,C1,a,2169.6,True,Other,Male,45 to 54,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S045,C1,a,1199.5,True,High school,Female,45 to 54,Yes,Confident,Reliable,Very confident
+S046,C1,a,1326.6,True,High school,Male,35 to 44,Yes,Confident,Very unreliable,Very confident
+S047,C1,a,1740.8,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Very confident,Reliable,Very confident
+S048,C1,a,1402.9,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S049,C1,a,1766.0,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S050,C1,a,975.4,True,High school,Male,18 to 24,Yes,Confident,Very reliable,Very confident
+S051,C1,a,1305.8,True,High school,Female,35 to 44,Yes,Confident,Unreliable,Very confident
+S052,C1,a,1493.4,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S053,C1,a,1747.9,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S054,C1,a,2215.7,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S055,C1,a,1480.0,True,High school,Male,35 to 44,Yes,Neither confident nor unconfident,Reliable,Confident
+S056,C1,a,1071.3,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S057,C1,a,2380.5,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S058,C1,a,2021.3,True,High school,Female,35 to 44,Yes,Unconfident,Reliable,Unconfident
+S059,C1,a,701.3,True,Doctorate,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S060,C1,a,2448.4,True,Professional degree,Female,55 to 64,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S061,C1,a,1397.8,True,High school,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S062,C1,a,1355.4,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S063,C1,a,862.4,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Very unconfident,Very reliable,Unconfident
+S064,C1,a,1818.0,True,Masters or equivalent higher degree level qualification,Male,55 to 64,Yes,Very unconfident,Very unreliable,Very unconfident
+S065,C1,a,1931.1,True,High school,Female,65 or over,Yes,Neither confident nor unconfident,Unreliable,Confident
+S066,C1,a,1522.5,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Confident,Neither reliable nor unreliable,Very confident
+S067,C1,a,2532.1,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S068,C1,a,2264.4,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S069,C1,a,2220.1,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Very reliable,Neither confident nor unconfident
+S070,C1,a,1399.6,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S071,C1,a,1566.7,True,High school,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S072,C1,a,1119.8,True,High school,Male,45 to 54,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S073,C1,a,1223.5,True,Masters or equivalent higher degree level qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S074,C1,a,1903.7,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S075,C1,a,1955.8,True,High school,Female,25 to 34,Yes,Unconfident,Reliable,Unconfident
+S076,C1,a,736.4,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Very unconfident,Neither reliable nor unreliable,Unconfident
+S077,C1,a,2027.8,True,High school,Female,25 to 34,Yes,Very unconfident,Reliable,Very unconfident
+S078,C1,a,1227.3,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S079,C1,a,2227.5,True,High school,Female,35 to 44,Yes,Confident,Neither reliable nor unreliable,Very confident
+S080,C1,a,867.4,True,High school,Female,65 or over,Yes,Very unconfident,Reliable,Unconfident
+S081,C1,a,1153.1,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S082,C1,a,649.0,True,Less than high school,Female,45 to 54,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S083,C1,a,986.4,True,Masters or equivalent higher degree level qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S084,C1,a,1951.2,True,Masters or equivalent higher degree level qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S085,C1,a,1934.7,True,High school,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S086,C1,a,1266.0,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S087,C1,a,1047.4,True,High school,Male,18 to 24,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S088,C1,a,1677.7,True,High school,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S089,C1,a,1316.8,True,Masters or equivalent higher degree level qualification,Female,25 to 34,Yes,Confident,Neither reliable nor unreliable,Very confident
+S090,C1,a,1339.2,True,Professional degree,Female,55 to 64,Yes,Neither confident nor unconfident,Unreliable,Confident
+S091,C1,a,1388.2,True,Bachelors or equivalent first degree qualification,Male,65 or over,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S092,C1,a,1296.0,True,High school,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S093,C1,a,2830.5,True,High school,Male,25 to 34,Yes,Confident,Reliable,Very confident
+S094,C1,a,621.7,True,High school,Female,45 to 54,Yes,Confident,Reliable,Confident
+S095,C1,a,3110.8,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S096,C1,a,1583.4,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Very unconfident,Reliable,Very unconfident
+S097,C1,a,1878.3,True,High school,Male,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S098,C1,a,2345.7,True,Masters or equivalent higher degree level qualification,Female,35 to 44,Yes,Unconfident,Reliable,Unconfident
+S099,C1,a,1619.5,True,Professional degree,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S100,C1,a,1124.5,True,Doctorate,Male,45 to 54,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S101,C1,a,2783.8,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S102,C1,a,586.4,True,Doctorate,Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S103,C1,a,1249.7,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Very reliable,Confident
+S104,C1,a,2029.6,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Confident,Neither reliable nor unreliable,Confident
+S105,C1,a,1630.5,True,High school,Female,35 to 44,Yes,Neither confident nor unconfident,Reliable,Confident
+S106,C1,a,1403.3,True,Other,Male,25 to 34,Yes,Very unconfident,Reliable,Very unconfident
+S107,C1,a,1085.3,True,Less than high school,Female,25 to 34,Yes,Unconfident,Very reliable,Neither confident nor unconfident
+S108,C1,a,1460.0,True,Doctorate,Female,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S109,C1,a,974.4,True,Bachelors or equivalent first degree qualification,Female,18 to 24,Yes,Neither confident nor unconfident,Reliable,Confident
+S110,C1,a,926.9,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Confident,Reliable,Confident
+S111,T1,a,2187.9,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S112,T1,a,2406.1,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S113,T1,a,1694.5,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Confident,Reliable,Confident
+S114,T1,a,813.6,True,Less than high school,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S115,T1,a,3117.9,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S116,T1,a,1687.0,True,High school,Female,35 to 44,Yes,Neither confident nor unconfident,Reliable,Confident
+S117,T1,a,1396.3,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S118,T1,a,1545.5,True,Masters or equivalent higher degree level qualification,Male,45 to 54,Yes,Very unconfident,Reliable,Unconfident
+S119,T1,a,2095.6,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Very unconfident,Very reliable,Very unconfident
+S120,T1,a,3221.4,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Very confident,Unreliable,Very confident
+S121,T1,a,1263.6,True,Masters or equivalent higher degree level qualification,Male,65 or over,Yes,Confident,Neither reliable nor unreliable,Very confident
+S122,T1,a,2137.1,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S123,T1,a,1455.1,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Confident,Unreliable,Confident
+S124,T1,a,1200.9,True,Bachelors or equivalent first degree qualification,Male,18 to 24,Yes,Confident,Reliable,Very confident
+S125,T1,a,1825.2,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Very unreliable,Neither confident nor unconfident
+S126,T1,a,1480.4,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Neither confident nor unconfident,Very unreliable,Confident
+S127,T1,a,1556.0,True,Masters or equivalent higher degree level qualification,Male,65 or over,Yes,Unconfident,Unreliable,Unconfident
+S128,T1,a,1245.5,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S129,T1,a,1919.8,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Confident,Reliable,Very confident
+S130,T1,a,1020.7,True,High school,Female,45 to 54,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S131,T1,a,3974.4,True,High school,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S132,T1,a,1451.7,True,Professional degree,Male,45 to 54,Yes,Confident,Very reliable,Confident
+S133,T1,a,1082.7,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S134,T1,a,1499.3,True,Doctorate,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S135,T1,a,893.4,True,Less than high school,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S136,T1,a,1114.9,True,Masters or equivalent higher degree level qualification,Female,18 to 24,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S137,T1,a,2610.4,True,Masters or equivalent higher degree level qualification,Male,65 or over,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S138,T1,a,1661.1,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S139,T1,a,2073.3,True,High school,Female,18 to 24,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S140,T1,a,2708.6,True,High school,Female,45 to 54,Yes,Very unconfident,Neither reliable nor unreliable,Very unconfident
+S141,T1,a,1122.8,True,Doctorate,Male,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S142,T1,a,924.3,True,High school,Male,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S143,T1,a,1649.3,True,Professional degree,Female,35 to 44,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S144,T1,a,3038.8,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Unconfident,Reliable,Unconfident
+S145,T1,a,1735.7,True,Bachelors or equivalent first degree qualification,Male,18 to 24,Yes,Confident,Unreliable,Confident
+S146,T1,a,665.3,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S147,T1,a,2915.6,True,Masters or equivalent higher degree level qualification,Male,35 to 44,Yes,Neither confident nor unconfident,Reliable,Confident
+S148,T1,a,946.2,True,High school,Female,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S149,T1,a,1371.6,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Female,35 to 44,Yes,Unconfident,Reliable,Unconfident
+S150,T1,a,668.8,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S151,T1,a,1486.2,True,High school,Female,45 to 54,Yes,Confident,Reliable,Confident
+S152,T1,a,1610.2,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S153,T1,a,1148.7,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S154,T1,a,1458.0,True,Less than high school,Male,25 to 34,Yes,Confident,Neither reliable nor unreliable,Confident
+S155,T1,a,1195.2,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Confident,Unreliable,Confident
+S156,T1,a,1326.9,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S157,T1,a,1833.7,True,Professional degree,Female,18 to 24,Yes,Confident,Neither reliable nor unreliable,Very confident
+S158,T1,a,1175.2,True,High school,Female,45 to 54,Yes,Confident,Reliable,Very confident
+S159,T1,a,1474.4,True,High school,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S160,T1,a,1135.3,True,High school,Male,45 to 54,Yes,Neither confident nor unconfident,Unreliable,Confident
+S161,T1,a,1191.0,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S162,T1,a,1565.0,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Confident,Neither reliable nor unreliable,Very confident
+S163,T1,a,1956.3,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Confident,Unreliable,Very confident
+S164,T1,a,2277.3,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S165,T1,a,1357.4,True,Bachelors or equivalent first degree qualification,Male,18 to 24,Yes,Very unconfident,Reliable,Unconfident
+S166,T1,a,2703.1,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Very confident,Neither reliable nor unreliable,Very confident
+S167,T1,a,1710.9,True,Masters or equivalent higher degree level qualification,Male,35 to 44,Yes,Confident,Very reliable,Confident
+S168,T1,a,1493.0,True,High school,Female,45 to 54,Yes,Confident,Unreliable,Very confident
+S169,T1,a,1950.8,True,High school,Female,55 to 64,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S170,T1,a,952.3,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S171,T1,a,994.9,True,High school,Male,35 to 44,Yes,Neither confident nor unconfident,Reliable,Confident
+S172,T1,a,1045.9,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Unconfident,Very reliable,Neither confident nor unconfident
+S173,T1,a,1301.7,True,Masters or equivalent higher degree level qualification,Male,35 to 44,Yes,Confident,Reliable,Confident
+S174,T1,a,1319.7,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Confident,Neither reliable nor unreliable,Very confident
+S175,T1,a,2819.8,True,High school,Female,65 or over,Yes,Very confident,Reliable,Very confident
+S176,T1,a,2456.5,True,High school,Male,18 to 24,Yes,Neither confident nor unconfident,Reliable,Confident
+S177,T1,a,1284.9,True,Masters or equivalent higher degree level qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Unreliable,Confident
+S178,T1,a,1517.9,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Very confident,Unreliable,Very confident
+S179,T1,a,1214.8,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Confident,Reliable,Very confident
+S180,T1,a,832.5,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Confident,Reliable,Very confident
+S181,T1,a,1434.3,True,Bachelors or equivalent first degree qualification,Male,65 or over,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S182,T1,a,1549.5,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S183,T1,a,3257.8,True,Other,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S184,T1,a,964.7,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Confident,Neither reliable nor unreliable,Very confident
+S185,T1,a,1510.0,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S186,T1,a,1183.7,True,Masters or equivalent higher degree level qualification,Male,18 to 24,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S187,T1,a,841.8,True,High school,Female,45 to 54,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S188,T1,a,2782.2,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Confident,Neither reliable nor unreliable,Confident
+S189,T1,a,1740.4,True,Professional degree,Female,18 to 24,No,Confident,Reliable,Confident
+S190,T1,a,2690.6,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Confident,Unreliable,Confident
+S191,T1,a,2122.0,True,High school,Male,45 to 54,Yes,Confident,Reliable,Confident
+S192,T1,a,1383.2,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Confident,Reliable,Confident
+S193,T1,a,1287.3,True,Masters or equivalent higher degree level qualification,Male,65 or over,Yes,Confident,Neither reliable nor unreliable,Confident
+S194,T1,a,1083.4,True,High school,Female,25 to 34,Yes,Unconfident,Very reliable,Unconfident
+S195,T1,a,2279.5,True,High school,Male,55 to 64,Yes,Confident,Reliable,Very confident
+S196,T1,a,2363.5,True,High school,Female,35 to 44,Yes,Confident,Neither reliable nor unreliable,Confident
+S197,T1,a,970.7,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Unconfident,Reliable,Unconfident
+S198,T1,a,1482.5,True,High school,Female,65 or over,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S199,T1,a,1107.8,True,High school,Female,35 to 44,Yes,Confident,Reliable,Confident
+S200,T1,a,1168.4,True,High school,Male,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S201,T1,a,2785.3,True,High school,Male,45 to 54,Yes,Confident,Very reliable,Very confident
+S202,T1,a,2168.7,True,High school,Female,45 to 54,Yes,Unconfident,Unreliable,Unconfident
+S203,T1,a,2030.7,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Confident,Unreliable,Very confident
+S204,T1,a,1199.5,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S205,T1,a,1382.2,True,Bachelors or equivalent first degree qualification,Male,65 or over,Yes,Unconfident,Very unreliable,Unconfident
+S206,T1,a,1272.1,True,High school,Male,65 or over,Yes,Neither confident nor unconfident,Reliable,Confident
+S207,T1,a,1748.1,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S208,T1,a,1394.2,True,Less than high school,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S209,T1,a,1234.3,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Very unconfident,Reliable,Unconfident
+S210,T1,a,2179.9,True,Other,Male,35 to 44,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S211,T1,a,2858.4,True,High school,Female,25 to 34,Yes,Confident,Neither reliable nor unreliable,Confident
+S212,T1,a,1548.6,True,High school,Female,55 to 64,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S213,T1,a,1414.1,True,Masters or equivalent higher degree level qualification,Male,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S214,T1,a,992.4,True,Masters or equivalent higher degree level qualification,Male,65 or over,Yes,Confident,Very reliable,Very confident
+S215,T1,a,1971.4,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S216,T1,a,1263.3,True,High school,Male,45 to 54,Yes,Confident,Unreliable,Confident
+S217,T1,a,1641.5,True,Masters or equivalent higher degree level qualification,Male,55 to 64,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S218,T1,a,1634.2,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S219,T1,a,908.6,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S220,T1,a,2046.8,True,Masters or equivalent higher degree level qualification,Male,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S221,T1,a,1872.2,True,Doctorate,Male,55 to 64,Yes,Neither confident nor unconfident,Very reliable,Confident
+S222,T2,a,2368.5,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S223,T2,a,1902.7,True,High school,Female,55 to 64,Yes,Confident,Reliable,Very confident
+S224,T2,a,1481.8,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Very reliable,Neither confident nor unconfident
+S225,T2,a,2045.4,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S226,T2,a,1824.1,True,High school,Male,65 or over,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S227,T2,a,1551.0,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Unconfident,Unreliable,Unconfident
+S228,T2,a,717.3,True,Masters or equivalent higher degree level qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S229,T2,a,2723.9,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Neither confident nor unconfident,Unreliable,Confident
+S230,T2,a,1956.1,True,High school,Female,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S231,T2,a,1284.5,True,High school,Female,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S232,T2,a,1092.3,True,Masters or equivalent higher degree level qualification,Male,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S233,T2,a,1281.8,True,High school,Male,45 to 54,Yes,Confident,Neither reliable nor unreliable,Confident
+S234,T2,a,1426.9,True,Masters or equivalent higher degree level qualification,Female,25 to 34,Yes,Very confident,Neither reliable nor unreliable,Very confident
+S235,T2,a,1711.4,True,High school,Male,65 or over,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S236,T2,a,1815.4,True,Masters or equivalent higher degree level qualification,Female,55 to 64,No,Neither confident nor unconfident,Reliable,Confident
+S237,T2,a,1901.8,True,Masters or equivalent higher degree level qualification,Male,65 or over,Yes,Unconfident,Very reliable,Neither confident nor unconfident
+S238,T2,a,1196.4,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S239,T2,a,2679.9,True,Bachelors or equivalent first degree qualification,Female,18 to 24,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S240,T2,a,2101.5,True,High school,Male,55 to 64,Yes,Confident,Reliable,Very confident
+S241,T2,a,1770.1,True,High school,Male,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S242,T2,a,4181.2,True,Masters or equivalent higher degree level qualification,Female,35 to 44,Yes,Confident,Reliable,Confident
+S243,T2,a,1559.1,True,High school,Female,18 to 24,Yes,Neither confident nor unconfident,Reliable,Confident
+S244,T2,a,1458.0,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Confident,Very reliable,Very confident
+S245,T2,a,1845.6,True,High school,Male,55 to 64,Yes,Neither confident nor unconfident,Reliable,Confident
+S246,T2,a,2912.9,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Unreliable,Confident
+S247,T2,a,1826.1,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Neither confident nor unconfident,Unreliable,Confident
+S248,T2,a,1512.6,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Very unconfident,Reliable,Very unconfident
+S249,T2,a,982.5,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S250,T2,a,2438.9,True,Other,Male,25 to 34,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S251,T2,a,2692.5,True,High school,Female,35 to 44,Yes,Confident,Unreliable,Very confident
+S252,T2,a,1795.7,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S253,T2,a,3619.0,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S254,T2,a,2204.2,True,Professional degree,Male,35 to 44,Yes,Very confident,Reliable,Very confident
+S255,T2,a,2128.8,True,Professional degree,Female,25 to 34,No,Confident,Neither reliable nor unreliable,Confident
+S256,T2,a,2053.5,True,High school,Female,55 to 64,Yes,Confident,Unreliable,Confident
+S257,T2,a,2326.9,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S258,T2,a,2430.4,True,High school,Female,35 to 44,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S259,T2,a,1887.5,True,High school,Male,45 to 54,Yes,Confident,Unreliable,Very confident
+S260,T2,a,1979.4,True,Masters or equivalent higher degree level qualification,Female,65 or over,Yes,Very unconfident,Reliable,Very unconfident
+S261,T2,a,3252.4,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Unreliable,Confident
+S262,T2,a,1877.4,True,Other,Male,45 to 54,Yes,Confident,Very reliable,Confident
+S263,T2,a,2851.7,True,Masters or equivalent higher degree level qualification,Female,45 to 54,Yes,Very unconfident,Reliable,Very unconfident
+S264,T2,a,1003.8,True,Masters or equivalent higher degree level qualification,Female,55 to 64,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S265,T2,a,2268.3,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S266,T2,a,1995.4,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Confident,Reliable,Very confident
+S267,T2,a,1602.8,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Unconfident,Reliable,Unconfident
+S268,T2,a,3111.8,True,High school,Female,35 to 44,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S269,T2,a,1597.1,True,Other,Female,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S270,T2,a,1775.7,True,High school,Female,35 to 44,Yes,Unconfident,Reliable,Unconfident
+S271,T2,a,1470.7,True,High school,Male,65 or over,Yes,Very confident,Reliable,Very confident
+S272,T2,a,2469.0,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Unconfident,Reliable,Unconfident
+S273,T2,a,2068.7,True,Masters or equivalent higher degree level qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S274,T2,a,1374.3,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Unconfident,Unreliable,Neither confident nor unconfident
+S275,T2,a,2615.7,True,High school,Male,25 to 34,Yes,Confident,Neither reliable nor unreliable,Confident
+S276,T2,a,2227.6,True,High school,Female,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S277,T2,a,903.1,True,Bachelors or equivalent first degree qualification,Male,45 to 54,No,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S278,T2,a,1288.3,True,High school,Male,65 or over,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S279,T2,a,3604.9,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Reliable,Confident
+S280,T2,a,1406.4,True,Doctorate,Male,55 to 64,Yes,Very confident,Reliable,Very confident
+S281,T2,a,2001.4,True,Masters or equivalent higher degree level qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S282,T2,a,1236.7,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S283,T2,a,1532.3,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Neither confident nor unconfident,Unreliable,Confident
+S284,T2,a,2342.4,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Male,18 to 24,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S285,T2,a,1808.6,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Unconfident,Reliable,Unconfident
+S286,T2,a,1862.9,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S287,T2,a,1405.9,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Reliable,Confident
+S288,T2,a,2943.3,True,High school,Female,55 to 64,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S289,T2,a,1121.0,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S290,T2,a,1829.1,True,High school,Male,65 or over,No,Very unconfident,Reliable,Unconfident
+S291,T2,a,1747.9,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Neither confident nor unconfident,Reliable,Confident
+S292,T2,a,1143.1,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S293,T2,a,2095.9,True,Masters or equivalent higher degree level qualification,Female,55 to 64,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S294,T2,a,1818.4,True,High school,Male,65 or over,Yes,Unconfident,Unreliable,Unconfident
+S295,T2,a,955.0,True,Doctorate,Male,45 to 54,Yes,Confident,Reliable,Very confident
+S296,T2,a,2066.3,True,High school,Female,18 to 24,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S297,T2,a,1339.0,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Confident,Reliable,Very confident
+S298,T2,a,3298.2,True,Masters or equivalent higher degree level qualification,Male,55 to 64,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S299,T2,a,1613.0,True,High school,Male,65 or over,Yes,Unconfident,Very reliable,Unconfident
+S300,T2,a,3064.5,True,High school,Female,45 to 54,Yes,Very unconfident,Reliable,Unconfident
+S301,T2,a,1112.0,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Female,65 or over,Yes,Confident,Reliable,Confident
+S302,T2,a,2445.4,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Male,55 to 64,Yes,Unconfident,Very reliable,Unconfident
+S303,T2,a,2922.7,True,High school,Male,35 to 44,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S304,T2,a,1944.2,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S305,T2,a,2655.8,True,Bachelors or equivalent first degree qualification,Prefer not to say,55 to 64,Yes,Neither confident nor unconfident,Reliable,Confident
+S306,T2,a,3194.8,True,Other,Male,55 to 64,Yes,Very unconfident,Reliable,Unconfident
+S307,T2,a,853.6,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Unconfident,Reliable,Unconfident
+S308,T2,a,1455.0,True,Doctorate,Female,35 to 44,Yes,Unconfident,Reliable,Unconfident
+S309,T2,a,2158.4,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S310,T2,a,2104.4,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S311,T2,a,2273.3,True,Masters or equivalent higher degree level qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S312,T2,a,1649.6,True,High school,Female,18 to 24,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S313,T2,a,3000.0,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S314,T2,a,1565.2,True,High school,Male,18 to 24,Yes,Neither confident nor unconfident,Reliable,Confident
+S315,T2,a,1902.4,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S316,T2,a,2506.5,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Male,45 to 54,Yes,Confident,Reliable,Confident
+S317,T2,a,2559.9,True,Masters or equivalent higher degree level qualification,Male,35 to 44,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S318,T2,a,2382.4,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S319,T2,a,1357.5,True,High school,Female,18 to 24,Yes,Confident,Neither reliable nor unreliable,Confident
+S320,T2,a,1681.0,True,High school,Female,55 to 64,Yes,Unconfident,Reliable,Unconfident
+S321,T2,a,1684.3,True,Professional degree,Female,35 to 44,Yes,Very unconfident,Reliable,Unconfident
+S322,T2,a,1046.2,True,Masters or equivalent higher degree level qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S323,T2,a,2667.9,True,High school,Male,35 to 44,Yes,Very confident,Reliable,Very confident
+S324,T2,a,1879.6,True,High school,Female,45 to 54,Yes,Very confident,Reliable,Very confident
+S325,T2,a,1340.3,True,High school,Female,55 to 64,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S326,T2,a,1316.0,True,Other,Male,45 to 54,Yes,Confident,Very reliable,Very confident
+S327,T2,a,2066.4,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S328,T2,a,1651.4,True,Less than high school,Male,45 to 54,Yes,Very confident,Reliable,Very confident
+S329,T2,a,2214.5,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S330,T2,a,2678.4,True,Doctorate,Female,45 to 54,Yes,Confident,Reliable,Confident
+S331,T2,a,1176.1,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Male,45 to 54,Yes,Unconfident,Unreliable,Unconfident
+S332,C2,b,2855.5,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S333,C2,b,1996.7,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S334,C2,b,1322.3,True,High school,Female,65 or over,Yes,Very confident,Reliable,Very confident
+S335,C2,b,1881.5,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S336,C2,b,1769.0,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S337,C2,b,2952.8,True,High school,Male,25 to 34,Yes,Very unconfident,Neither reliable nor unreliable,Unconfident
+S338,C2,b,1152.6,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S339,C2,b,1480.3,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S340,C2,b,1418.4,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S341,C2,b,896.6,True,High school,Female,25 to 34,Yes,Unconfident,Very reliable,Unconfident
+S342,C2,b,1972.9,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Very reliable,Confident
+S343,C2,b,2718.6,True,High school,Female,25 to 34,Yes,Very unconfident,Neither reliable nor unreliable,Unconfident
+S344,C2,b,1461.0,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S345,C2,b,1340.3,True,Masters or equivalent higher degree level qualification,Male,65 or over,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S346,C2,b,3732.2,True,Other,Male,65 or over,Yes,Confident,Reliable,Very confident
+S347,C2,b,2101.5,True,High school,Male,65 or over,Yes,Very confident,Neither reliable nor unreliable,Very confident
+S348,C2,b,1661.1,True,High school,Female,25 to 34,Yes,Very unconfident,Very unreliable,Very unconfident
+S349,C2,b,890.7,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S350,C2,b,1743.6,True,Masters or equivalent higher degree level qualification,Male,45 to 54,Yes,Very confident,Reliable,Very confident
+S351,C2,b,1616.2,True,High school,Male,25 to 34,Yes,Confident,Reliable,Confident
+S352,C2,b,2324.0,True,High school,Female,65 or over,Yes,Unconfident,Reliable,Unconfident
+S353,C2,b,807.7,True,Professional degree,Female,18 to 24,Yes,Unconfident,Reliable,Unconfident
+S354,C2,b,1046.8,True,Masters or equivalent higher degree level qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Reliable,Confident
+S355,C2,b,897.5,True,High school,Male,35 to 44,Yes,Unconfident,Very reliable,Unconfident
+S356,C2,b,1903.0,True,High school,Male,35 to 44,Yes,Confident,Neither reliable nor unreliable,Confident
+S357,C2,b,996.6,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S358,C2,b,3319.3,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S359,C2,b,1599.4,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S360,C2,b,3424.0,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S361,C2,b,2012.5,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Confident,Reliable,Confident
+S362,C2,b,1590.0,True,Masters or equivalent higher degree level qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S363,C2,b,1532.2,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S364,C2,b,646.6,True,High school,Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S365,C2,b,1889.6,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Very unconfident,Reliable,Unconfident
+S366,C2,b,1790.1,True,Masters or equivalent higher degree level qualification,Female,18 to 24,Yes,Confident,Very reliable,Confident
+S367,C2,b,3964.8,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Very reliable,Neither confident nor unconfident
+S368,C2,b,2261.1,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S369,C2,b,1412.7,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Confident,Reliable,Very confident
+S370,C2,b,2326.0,True,Masters or equivalent higher degree level qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S371,C2,b,2268.5,True,Masters or equivalent higher degree level qualification,Male,65 or over,Yes,Confident,Reliable,Confident
+S372,C2,b,1967.2,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Confident,Reliable,Confident
+S373,C2,b,1466.2,True,Bachelors or equivalent first degree qualification,Male,35 to 44,Yes,Confident,Neither reliable nor unreliable,Very confident
+S374,C2,b,894.6,True,High school,Female,55 to 64,Yes,Neither confident nor unconfident,Unreliable,Neither confident nor unconfident
+S375,C2,b,2243.2,True,Doctorate,Male,25 to 34,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S376,C2,b,2519.5,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Confident,Unreliable,Confident
+S377,C2,b,2337.3,True,High school,Female,55 to 64,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S378,C2,b,1118.9,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Confident,Reliable,Very confident
+S379,C2,b,1998.2,True,High school,Female,65 or over,Yes,Confident,Very reliable,Confident
+S380,C2,b,4820.4,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S381,C2,b,2454.1,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Unconfident,Reliable,Unconfident
+S382,C2,b,2848.6,True,Bachelors or equivalent first degree qualification,Female,35 to 44,Yes,Confident,Reliable,Very confident
+S383,C2,b,2951.6,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S384,C2,b,1384.6,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S385,C2,b,2543.5,True,Bachelors or equivalent first degree qualification,Male,18 to 24,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S386,C2,b,1994.7,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S387,C2,b,874.2,True,Doctorate,Male,55 to 64,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S388,C2,b,2779.5,True,Masters or equivalent higher degree level qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Very reliable,Confident
+S389,C2,b,2290.1,True,Masters or equivalent higher degree level qualification,Female,35 to 44,Yes,Neither confident nor unconfident,Reliable,Confident
+S390,C2,b,1977.0,True,High school,Female,65 or over,Yes,Confident,Very reliable,Confident
+S391,C2,b,1456.5,True,Professional degree,Female,65 or over,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S392,C2,b,2714.1,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S393,C2,b,1317.3,True,High school,Female,45 to 54,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Confident
+S394,C2,b,1467.8,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Very reliable,Neither confident nor unconfident
+S395,C2,b,2053.3,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S396,C2,b,1097.1,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Unreliable,Confident
+S397,C2,b,2457.0,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Confident,Very reliable,Confident
+S398,C2,b,1252.5,True,Masters or equivalent higher degree level qualification,Female,25 to 34,Yes,Very confident,Unreliable,Very confident
+S399,C2,b,1658.5,True,Masters or equivalent higher degree level qualification,Female,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S400,C2,b,1609.4,True,Masters or equivalent higher degree level qualification,Female,45 to 54,Yes,Neither confident nor unconfident,Reliable,Confident
+S401,C2,b,1215.3,True,Masters or equivalent higher degree level qualification,Female,25 to 34,Yes,Very unconfident,Reliable,Unconfident
+S402,C2,b,2599.7,True,High school,Male,55 to 64,Yes,Very confident,Reliable,Very confident
+S403,C2,b,1592.2,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Neither reliable nor unreliable,Neither confident nor unconfident
+S404,C2,b,882.4,True,Other,Male,65 or over,Yes,Confident,Reliable,Confident
+S405,C2,b,824.9,True,High school,Male,18 to 24,Yes,Confident,Reliable,Confident
+S406,C2,b,1719.4,True,Doctorate,Female,25 to 34,Yes,Confident,Neither reliable nor unreliable,Very confident
+S407,C2,b,1204.7,True,High school,Female,45 to 54,Yes,Confident,Reliable,Very confident
+S408,C2,b,1437.2,True,Other,Female,45 to 54,Yes,Unconfident,Reliable,Unconfident
+S409,C2,b,2547.2,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Confident,Neither reliable nor unreliable,Confident
+S410,C2,b,1482.7,True,High school,Female,55 to 64,Yes,Unconfident,Unreliable,Unconfident
+S411,C2,b,1604.1,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S412,C2,b,1452.7,True,High school,Female,65 or over,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S413,C2,b,1128.3,True,Less than high school,Male,35 to 44,Yes,Unconfident,Reliable,Unconfident
+S414,C2,b,2535.4,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S415,C2,b,1836.8,True,High school,Male,25 to 34,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S416,C2,b,2168.7,True,Bachelors or equivalent first degree qualification,Female,65 or over,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S417,C2,b,2365.1,True,High school,Male,45 to 54,Yes,Very confident,Neither reliable nor unreliable,Very confident
+S418,C2,b,2854.9,True,Doctorate,Male,25 to 34,Yes,Neither confident nor unconfident,Reliable,Confident
+S419,C2,b,3047.4,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Confident,Reliable,Very confident
+S420,C2,b,1244.1,True,High school,Male,35 to 44,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S421,C2,b,1105.8,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Very reliable,Neither confident nor unconfident
+S422,C2,b,1934.1,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S423,C2,b,2486.5,True,Bachelors or equivalent first degree qualification,Male,25 to 34,Yes,Very confident,Reliable,Very confident
+S424,C2,b,2251.1,True,Bachelors or equivalent first degree qualification,Female,18 to 24,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S425,C2,b,2400.8,True,Bachelors or equivalent first degree qualification,Female,18 to 24,Yes,Very unconfident,Unreliable,Very unconfident
+S426,C2,b,2184.0,True,Bachelors or equivalent first degree qualification,Female,18 to 24,Yes,Unconfident,Very reliable,Neither confident nor unconfident
+S427,C2,b,1652.6,True,Masters or equivalent higher degree level qualification,Male,25 to 34,Yes,Unconfident,Unreliable,Unconfident
+S428,C2,b,1381.9,True,Masters or equivalent higher degree level qualification,Female,35 to 44,Yes,Very unconfident,Reliable,Very unconfident
+S429,C2,b,2472.6,True,Bachelors or equivalent first degree qualification,Female,45 to 54,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S430,C2,b,2234.3,True,Bachelors or equivalent first degree qualification,Male,65 or over,Yes,Confident,Very reliable,Confident
+S431,C2,b,1628.4,True,Masters or equivalent higher degree level qualification,Female,65 or over,Yes,Neither confident nor unconfident,Reliable,Confident
+S432,C2,b,1228.2,True,Bachelors or equivalent first degree qualification,Male,45 to 54,Yes,Confident,Reliable,Very confident
+S433,C2,b,2488.9,True,High school,Male,45 to 54,Yes,Confident,Reliable,Confident
+S434,C2,b,4419.2,True,Bachelors or equivalent first degree qualification,Female,18 to 24,Yes,Unconfident,Reliable,Neither confident nor unconfident
+S435,C2,b,1238.0,True,Professional degree,Male,55 to 64,Yes,Confident,Neither reliable nor unreliable,Confident
+S436,C2,b,1162.9,True,High school,Male,25 to 34,Yes,Very confident,Unreliable,Very confident
+S437,C2,b,2431.4,True,Bachelors or equivalent first degree qualification,Female,55 to 64,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S438,C2,b,1177.9,True,Bachelors or equivalent first degree qualification,Female,25 to 34,Yes,Neither confident nor unconfident,Reliable,Neither confident nor unconfident
+S439,C2,b,3462.1,True,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),Male,55 to 64,Yes,Unconfident,Neither reliable nor unreliable,Unconfident
+S440,C2,b,2365.0,True,Bachelors or equivalent first degree qualification,Male,55 to 64,Yes,Unconfident,Reliable,Unconfident
+S441,C2,b,3457.9,True,High school,Male,35 to 44,Yes,Neither confident nor unconfident,Reliable,Confident

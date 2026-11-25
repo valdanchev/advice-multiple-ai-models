@@ -1,0 +1,7 @@
+seed 20251017: 441 simulated participants, 14112 trials
+      init_correct  final_correct  switched
+cond                                       
+C1           0.186          0.417     0.608
+C2           0.192          0.432     0.670
+T1           0.199          0.490     0.547
+T2           0.174          0.484     0.571

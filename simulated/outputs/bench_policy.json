@@ -1,0 +1,296 @@
+{
+ "excess_switch_by_n_llm": {
+  "1": {
+   "switched mean": 0.639,
+   "switched sem": 0.009,
+   "opt_switch mean": 0.857,
+   "opt_switch sem": 0.004,
+   "excess mean": -0.218,
+   "excess sem": 0.008,
+   "excess_rho0 mean": -0.218,
+   "excess_rho0 sem": 0.008,
+   "excess_rho05 mean": -0.218,
+   "excess_rho05 sem": 0.008,
+   "excess_qlo mean": -0.218,
+   "excess_qlo sem": 0.008,
+   "excess_qhi mean": -0.218,
+   "excess_qhi sem": 0.008
+  },
+  "3": {
+   "switched mean": 0.559,
+   "switched sem": 0.008,
+   "opt_switch mean": 0.817,
+   "opt_switch sem": 0.005,
+   "excess mean": -0.259,
+   "excess sem": 0.007,
+   "excess_rho0 mean": -0.259,
+   "excess_rho0 sem": 0.007,
+   "excess_rho05 mean": -0.24,
+   "excess_rho05 sem": 0.007,
+   "excess_qlo mean": -0.271,
+   "excess_qlo sem": 0.007,
+   "excess_qhi mean": -0.24,
+   "excess_qhi sem": 0.007
+  }
+ },
+ "excess_adopt_by_others": {
+  "alone": {
+   "adopt": 0.698,
+   "optimal": 1.0,
+   "n": 4560,
+   "excess": -0.302
+  },
+  "both correct": {
+   "adopt": 0.037,
+   "optimal": 0.0,
+   "n": 2406,
+   "excess": 0.037
+  },
+  "both wrong, none agree": {
+   "adopt": 0.066,
+   "optimal": 0.142,
+   "n": 1214,
+   "excess": -0.076
+  },
+  "both wrong, one agrees": {
+   "adopt": 0.692,
+   "optimal": 1.0,
+   "n": 1196,
+   "excess": -0.308
+  },
+  "one correct, one agrees": {
+   "adopt": 0.688,
+   "optimal": 1.0,
+   "n": 1582,
+   "excess": -0.312
+  },
+  "one correct, one different": {
+   "adopt": 0.115,
+   "optimal": 0.339,
+   "n": 3021,
+   "excess": -0.224
+  }
+ },
+ "excess_adopt_CI": {
+  "alone": {
+   "0.025": -0.321,
+   "0.975": -0.282
+  },
+  "both correct": {
+   "0.025": 0.029,
+   "0.975": 0.045
+  },
+  "both wrong, none agree": {
+   "0.025": -0.089,
+   "0.975": -0.06
+  },
+  "both wrong, one agrees": {
+   "0.025": -0.344,
+   "0.975": -0.268
+  },
+  "one correct, one agrees": {
+   "0.025": -0.343,
+   "0.975": -0.281
+  },
+  "one correct, one different": {
+   "0.025": -0.239,
+   "0.975": -0.211
+  }
+ },
+ "optimal_adopt_sensitivity": {
+  "alone": {
+   "adopt_m": 0.698,
+   "opt": 1.0,
+   "opt_rho0": 1.0,
+   "opt_rho05": 1.0,
+   "opt_qlo": 1.0,
+   "opt_qhi": 1.0
+  },
+  "both correct": {
+   "adopt_m": 0.037,
+   "opt": 0.0,
+   "opt_rho0": 0.0,
+   "opt_rho05": 0.0,
+   "opt_qlo": 0.0,
+   "opt_qhi": 0.0
+  },
+  "both wrong, none agree": {
+   "adopt_m": 0.066,
+   "opt": 0.142,
+   "opt_rho0": 0.142,
+   "opt_rho05": 0.142,
+   "opt_qlo": 0.142,
+   "opt_qhi": 0.142
+  },
+  "both wrong, one agrees": {
+   "adopt_m": 0.692,
+   "opt": 1.0,
+   "opt_rho0": 1.0,
+   "opt_rho05": 1.0,
+   "opt_qlo": 1.0,
+   "opt_qhi": 1.0
+  },
+  "one correct, one agrees": {
+   "adopt_m": 0.688,
+   "opt": 1.0,
+   "opt_rho0": 1.0,
+   "opt_rho05": 0.909,
+   "opt_qlo": 1.0,
+   "opt_qhi": 0.909
+  },
+  "one correct, one different": {
+   "adopt_m": 0.115,
+   "opt": 0.339,
+   "opt_rho0": 0.339,
+   "opt_rho05": 0.339,
+   "opt_qlo": 0.352,
+   "opt_qhi": 0.329
+  }
+ },
+ "natural_freq_observed": {
+  "3C": 0.416,
+  "2C1W": 0.286,
+  "1C2W-agree": 0.051,
+  "1C2W-split": 0.093,
+  "0C3W-agree": 0.053,
+  "0C3W-2+1": 0.059,
+  "0C3W-split": 0.043
+ },
+ "simulated_freq": {
+  "rho=0.35 (estimated)": {
+   "3C": 0.329,
+   "2C1W": 0.377,
+   "1C2W-agree": 0.073,
+   "1C2W-split": 0.149,
+   "0C3W-agree": 0.019,
+   "0C3W-2+1": 0.034,
+   "0C3W-split": 0.02
+  },
+  "rho=0 (independent vendors)": {
+   "3C": 0.27,
+   "2C1W": 0.46,
+   "1C2W-agree": 0.025,
+   "1C2W-split": 0.207,
+   "0C3W-agree": 0.0,
+   "0C3W-2+1": 0.011,
+   "0C3W-split": 0.026
+  },
+  "rho=0.5 (heavily shared errors)": {
+   "3C": 0.381,
+   "2C1W": 0.31,
+   "1C2W-agree": 0.097,
+   "1C2W-split": 0.104,
+   "0C3W-agree": 0.049,
+   "0C3W-2+1": 0.046,
+   "0C3W-split": 0.014
+  }
+ },
+ "policy_inputs": {
+  "control_acc_when_advice_correct": 0.797,
+  "control_acc_when_advice_wrong": 0.095,
+  "treatment_acc_by_config": {
+   "0C3W-2+1": 0.094,
+   "0C3W-split": 0.281,
+   "1C2W-agree": 0.131,
+   "1C2W-split": 0.242,
+   "2C1W": 0.757,
+   "3C": 0.87,
+   "0C3W-agree": 0.094
+  },
+  "optimal_acc_by_config": {
+   "0C3W-2+1": 0.0,
+   "0C3W-split": 0.0,
+   "1C2W-agree": 0.0,
+   "1C2W-split": 0.297,
+   "2C1W": 1.0,
+   "3C": 1.0,
+   "0C3W-agree": 0.0
+  }
+ },
+ "policies": {
+  "rho=0.35 (estimated)": {
+   "(a) single vendor": {
+    "accuracy_per_100": 55.4,
+    "AI_induced_errors_per_100": 3.6
+   },
+   "(b) show all three": {
+    "accuracy_per_100": 62.7,
+    "AI_induced_errors_per_100": 2.0
+   },
+   "(c) majority only": {
+    "accuracy_per_100": 62.6,
+    "AI_induced_errors_per_100": 2.6
+   },
+   "(e) Bayes-optimal": {
+    "accuracy_per_100": 75.0,
+    "AI_induced_errors_per_100": 3.8
+   },
+   "(d) majority + disagreement flag (range)": {
+    "accuracy_per_100": [
+     62.6,
+     62.7
+    ],
+    "AI_induced_errors_per_100": [
+     2.0,
+     2.6
+    ]
+   }
+  },
+  "rho=0 (independent vendors)": {
+   "(a) single vendor": {
+    "accuracy_per_100": 55.5,
+    "AI_induced_errors_per_100": 3.6
+   },
+   "(b) show all three": {
+    "accuracy_per_100": 64.5,
+    "AI_induced_errors_per_100": 1.2
+   },
+   "(c) majority only": {
+    "accuracy_per_100": 65.6,
+    "AI_induced_errors_per_100": 2.2
+   },
+   "(e) Bayes-optimal": {
+    "accuracy_per_100": 79.1,
+    "AI_induced_errors_per_100": 2.3
+   },
+   "(d) majority + disagreement flag (range)": {
+    "accuracy_per_100": [
+     64.5,
+     65.6
+    ],
+    "AI_induced_errors_per_100": [
+     1.2,
+     2.2
+    ]
+   }
+  },
+  "rho=0.5 (heavily shared errors)": {
+   "(a) single vendor": {
+    "accuracy_per_100": 55.4,
+    "AI_induced_errors_per_100": 3.6
+   },
+   "(b) show all three": {
+    "accuracy_per_100": 61.6,
+    "AI_induced_errors_per_100": 2.7
+   },
+   "(c) majority only": {
+    "accuracy_per_100": 60.4,
+    "AI_induced_errors_per_100": 2.9
+   },
+   "(e) Bayes-optimal": {
+    "accuracy_per_100": 72.1,
+    "AI_induced_errors_per_100": 4.8
+   },
+   "(d) majority + disagreement flag (range)": {
+    "accuracy_per_100": [
+     60.4,
+     61.6
+    ],
+    "AI_induced_errors_per_100": [
+     2.7,
+     2.9
+    ]
+   }
+  }
+ }
+}

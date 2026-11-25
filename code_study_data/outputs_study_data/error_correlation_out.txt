@@ -1,0 +1,7 @@
+questions in the four subjects: 1126 (health_nutrition 179, business 789, college_mathematics 74, global_facts 84)
+(2) both-wrong pairs: 557; same wrong option: 239 (42.9%); chance 11.8%; rho = 0.353
+(1) co-failure by pair of models:
+  GPT-4o / Claude 3.5 Sonnet: wrong 0.230 and 0.215; both wrong 0.152 vs 0.049 if independent (ratio 3.07); phi 0.59
+  GPT-4o / Llama 3.1 70B: wrong 0.230 and 0.496; both wrong 0.181 vs 0.114 if independent (ratio 1.59); phi 0.32
+  Claude 3.5 Sonnet / Llama 3.1 70B: wrong 0.215 and 0.496; both wrong 0.175 vs 0.107 if independent (ratio 1.64); phi 0.33
+Answer keys are used as published (not corrected for key errors).

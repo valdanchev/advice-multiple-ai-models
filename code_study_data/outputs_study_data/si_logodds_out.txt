@@ -1,0 +1,57 @@
+
+== M1 
+NOTE: Results may be misleading due to involvement in interactions
+ contrast    odds.ratio   SE  df asymp.LCL asymp.UCL null z.ratio p.value
+ three / one       3.28 1.37 Inf      1.44      7.46    1   2.828  0.0047
+
+Results are averaged over the levels of: ex, init_correct 
+Confidence level used: 0.95 
+Intervals are back-transformed from the log odds ratio scale 
+Tests are performed on the log odds ratio scale 
+
+== M2h 
+NOTE: Results may be misleading due to involvement in interactions
+ contrast    odds.ratio    SE  df asymp.LCL asymp.UCL null z.ratio p.value
+ three / one      0.239 0.048 Inf     0.161     0.354    1  -7.130  <.0001
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+Intervals are back-transformed from the log odds ratio scale 
+Tests are performed on the log odds ratio scale 
+
+== M2b 
+NOTE: Results may be misleading due to involvement in interactions
+ contrast    odds.ratio    SE  df asymp.LCL asymp.UCL null z.ratio p.value
+ three / one       1.86 0.133 Inf      1.62      2.14    1   8.679  <.0001
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+Intervals are back-transformed from the log odds ratio scale 
+Tests are performed on the log odds ratio scale 
+
+== M3 
+NOTE: Results may be misleading due to involvement in interactions
+ contrast    odds.ratio     SE  df asymp.LCL asymp.UCL null z.ratio p.value
+ three / one      0.171 0.0171 Inf     0.141     0.208    1 -17.708  <.0001
+
+Results are averaged over the levels of: ex, model_m 
+Confidence level used: 0.95 
+Intervals are back-transformed from the log odds ratio scale 
+Tests are performed on the log odds ratio scale 
+
+== M5 
+NOTE: Results may be misleading due to involvement in interactions
+ contrast    odds.ratio     SE  df asymp.LCL asymp.UCL null z.ratio p.value
+ three / one      0.168 0.0161 Inf     0.139     0.202    1 -18.627  <.0001
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+Intervals are back-transformed from the log odds ratio scale 
+Tests are performed on the log odds ratio scale 
+
+== raw harm rates by n_llm
+  n_llm exp       harm
+1     1   1 0.19540230
+2     3   1 0.09563758
+3     1   2 0.24919094
+4     3   2 0.13224638

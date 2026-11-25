@@ -1,0 +1,445 @@
+{
+ "order": [
+  "5529",
+  "5226",
+  "5750",
+  "5533",
+  "5678",
+  "5312",
+  "5883",
+  "5311",
+  "8705",
+  "8703",
+  "8152",
+  "8153",
+  "8041",
+  "7730",
+  "8574",
+  "7832",
+  "646",
+  "477",
+  "671",
+  "638",
+  "600",
+  "799",
+  "599",
+  "612",
+  "6191",
+  "6630",
+  "6061",
+  "6384",
+  "6064",
+  "6634",
+  "6274",
+  "6057"
+ ],
+ "advice": {
+  "5529": {
+   "three": {
+    "ChatGPT": "B",
+    "Claude": "B",
+    "Llama": "G"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "B",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude"
+   ]
+  },
+  "5226": {
+   "three": {
+    "ChatGPT": "E",
+    "Claude": "H",
+    "Llama": "E"
+   },
+   "single_label": "Claude",
+   "single_answer": "H",
+   "single_answer_from": [
+    "Claude"
+   ]
+  },
+  "5750": {
+   "three": {
+    "ChatGPT": "H",
+    "Claude": "H",
+    "Llama": "H"
+   },
+   "single_label": "Claude",
+   "single_answer": "H",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude",
+    "Llama"
+   ]
+  },
+  "5533": {
+   "three": {
+    "ChatGPT": "J",
+    "Claude": "D",
+    "Llama": "B"
+   },
+   "single_label": "Claude",
+   "single_answer": "B",
+   "single_answer_from": [
+    "Llama"
+   ]
+  },
+  "5678": {
+   "three": {
+    "ChatGPT": "J",
+    "Claude": "B",
+    "Llama": "B"
+   },
+   "single_label": "Llama",
+   "single_answer": "B",
+   "single_answer_from": [
+    "Claude",
+    "Llama"
+   ]
+  },
+  "5312": {
+   "three": {
+    "ChatGPT": "E",
+    "Claude": "C",
+    "Llama": "F"
+   },
+   "single_label": "Llama",
+   "single_answer": "F",
+   "single_answer_from": [
+    "Llama"
+   ]
+  },
+  "5883": {
+   "three": {
+    "ChatGPT": "C",
+    "Claude": "B",
+    "Llama": "B"
+   },
+   "single_label": "Llama",
+   "single_answer": "B",
+   "single_answer_from": [
+    "Claude",
+    "Llama"
+   ]
+  },
+  "5311": {
+   "three": {
+    "ChatGPT": "E",
+    "Claude": "A",
+    "Llama": "A"
+   },
+   "single_label": "Claude",
+   "single_answer": "A",
+   "single_answer_from": [
+    "Claude",
+    "Llama"
+   ]
+  },
+  "8705": {
+   "three": {
+    "ChatGPT": "C",
+    "Claude": "C",
+    "Llama": "I"
+   },
+   "single_label": "Llama",
+   "single_answer": "I",
+   "single_answer_from": [
+    "Llama"
+   ]
+  },
+  "8703": {
+   "three": {
+    "ChatGPT": "J",
+    "Claude": "J",
+    "Llama": "J"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "J",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude",
+    "Llama"
+   ]
+  },
+  "8152": {
+   "three": {
+    "ChatGPT": "E",
+    "Claude": "C",
+    "Llama": "E"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "E",
+   "single_answer_from": [
+    "ChatGPT",
+    "Llama"
+   ]
+  },
+  "8153": {
+   "three": {
+    "ChatGPT": "I",
+    "Claude": "D",
+    "Llama": "D"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "I",
+   "single_answer_from": [
+    "ChatGPT"
+   ]
+  },
+  "8041": {
+   "three": {
+    "ChatGPT": "A",
+    "Claude": "B",
+    "Llama": "G"
+   },
+   "single_label": "Llama",
+   "single_answer": "G",
+   "single_answer_from": [
+    "Llama"
+   ]
+  },
+  "7730": {
+   "three": {
+    "ChatGPT": "A",
+    "Claude": "A",
+    "Llama": "D"
+   },
+   "single_label": "Claude",
+   "single_answer": "A",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude"
+   ]
+  },
+  "8574": {
+   "three": {
+    "ChatGPT": "I",
+    "Claude": "I",
+    "Llama": "B"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "I",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude"
+   ]
+  },
+  "7832": {
+   "three": {
+    "ChatGPT": "H",
+    "Claude": "C",
+    "Llama": "H"
+   },
+   "single_label": "Llama",
+   "single_answer": "H",
+   "single_answer_from": [
+    "ChatGPT",
+    "Llama"
+   ]
+  },
+  "646": {
+   "three": {
+    "ChatGPT": "B",
+    "Claude": "C",
+    "Llama": "B"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "B",
+   "single_answer_from": [
+    "ChatGPT",
+    "Llama"
+   ]
+  },
+  "477": {
+   "three": {
+    "ChatGPT": "H",
+    "Claude": "H",
+    "Llama": "H"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "H",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude",
+    "Llama"
+   ]
+  },
+  "671": {
+   "three": {
+    "ChatGPT": "D",
+    "Claude": "I",
+    "Llama": "H"
+   },
+   "single_label": "Claude",
+   "single_answer": "I",
+   "single_answer_from": [
+    "Claude"
+   ]
+  },
+  "638": {
+   "three": {
+    "ChatGPT": "H",
+    "Claude": "G",
+    "Llama": "G"
+   },
+   "single_label": "Claude",
+   "single_answer": "G",
+   "single_answer_from": [
+    "Claude",
+    "Llama"
+   ]
+  },
+  "600": {
+   "three": {
+    "ChatGPT": "F",
+    "Claude": "F",
+    "Llama": "A"
+   },
+   "single_label": "Llama",
+   "single_answer": "A",
+   "single_answer_from": [
+    "Llama"
+   ]
+  },
+  "799": {
+   "three": {
+    "ChatGPT": "C",
+    "Claude": "C",
+    "Llama": "I"
+   },
+   "single_label": "Claude",
+   "single_answer": "C",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude"
+   ]
+  },
+  "599": {
+   "three": {
+    "ChatGPT": "X",
+    "Claude": "D",
+    "Llama": "F"
+   },
+   "single_label": "Llama",
+   "single_answer": "F",
+   "single_answer_from": [
+    "Llama"
+   ]
+  },
+  "612": {
+   "three": {
+    "ChatGPT": "D",
+    "Claude": "G",
+    "Llama": "A"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "D",
+   "single_answer_from": [
+    "ChatGPT"
+   ]
+  },
+  "6191": {
+   "three": {
+    "ChatGPT": "E",
+    "Claude": "I",
+    "Llama": "I"
+   },
+   "single_label": "Claude",
+   "single_answer": "I",
+   "single_answer_from": [
+    "Claude",
+    "Llama"
+   ]
+  },
+  "6630": {
+   "three": {
+    "ChatGPT": "G",
+    "Claude": "A",
+    "Llama": "A"
+   },
+   "single_label": "Claude",
+   "single_answer": "A",
+   "single_answer_from": [
+    "Claude",
+    "Llama"
+   ]
+  },
+  "6061": {
+   "three": {
+    "ChatGPT": "I",
+    "Claude": "I",
+    "Llama": "D"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "I",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude"
+   ]
+  },
+  "6384": {
+   "three": {
+    "ChatGPT": "C",
+    "Claude": "I",
+    "Llama": "C"
+   },
+   "single_label": "ChatGPT",
+   "single_answer": "C",
+   "single_answer_from": [
+    "ChatGPT",
+    "Llama"
+   ]
+  },
+  "6064": {
+   "three": {
+    "ChatGPT": "F",
+    "Claude": "E",
+    "Llama": "C"
+   },
+   "single_label": "Llama",
+   "single_answer": "C",
+   "single_answer_from": [
+    "Llama"
+   ]
+  },
+  "6634": {
+   "three": {
+    "ChatGPT": "H",
+    "Claude": "E",
+    "Llama": "D"
+   },
+   "single_label": "Llama",
+   "single_answer": "D",
+   "single_answer_from": [
+    "Llama"
+   ]
+  },
+  "6274": {
+   "three": {
+    "ChatGPT": "F",
+    "Claude": "B",
+    "Llama": "I"
+   },
+   "single_label": "Claude",
+   "single_answer": "B",
+   "single_answer_from": [
+    "Claude"
+   ]
+  },
+  "6057": {
+   "three": {
+    "ChatGPT": "D",
+    "Claude": "D",
+    "Llama": "D"
+   },
+   "single_label": "Llama",
+   "single_answer": "D",
+   "single_answer_from": [
+    "ChatGPT",
+    "Claude",
+    "Llama"
+   ]
+  }
+ }
+}

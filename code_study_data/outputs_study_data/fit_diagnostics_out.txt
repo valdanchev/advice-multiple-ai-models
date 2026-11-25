@@ -1,0 +1,12 @@
+M1     initial_singular=FALSE final_singular=FALSE convergence_msgs=none
+  formula: final_correct ~ nl * ex + init_correct + (1 | pid) + (1 + n_llm_c |     item)
+M2h    initial_singular=FALSE final_singular=FALSE convergence_msgs=none
+  formula: harm ~ nl * ex + (1 | pid) + (1 | item)
+M2b    initial_singular=FALSE final_singular=FALSE convergence_msgs=none
+  formula: benefit ~ nl * ex + (1 | pid) + (1 | item)
+M3     initial_singular=FALSE final_singular=FALSE convergence_msgs=none
+  formula: adopt_m ~ nl * ex + model_m + (1 | pid) + (1 | item:model_m)
+M4     initial_singular=FALSE final_singular=FALSE convergence_msgs=none
+  formula: adopt_m ~ others_f + ex + model_m + (1 | pid) + (1 | item:model_m)
+M7     initial_singular=FALSE final_singular=FALSE convergence_msgs=none
+  formula: adopt_m ~ gpt * nl + ex + (1 | pid) + (1 | item:model_m)

@@ -1,0 +1,95 @@
+
+===== M1 final_correct ~ nl * ex + init_correct + (1 | pid) + (1 + n_llm_c | item)  n = 14112 
+               Estimate Std. Error z value Pr(>|z|)
+(Intercept)     -1.8754     0.4955 -3.7846   0.0002
+nlthree          0.8795     0.3528  2.4929   0.0127
+exexp2           0.1392     0.0845  1.6485   0.0992
+init_correct     4.1422     0.1109 37.3507   0.0000
+nlthree:exexp2  -0.0990     0.1153 -0.8590   0.3903
+   grp        var1    var2      sdcor
+1  pid (Intercept)    <NA>  0.2787113
+2 item (Intercept)    <NA>  2.3141809
+3 item     n_llm_c    <NA>  1.9331714
+4 item (Intercept) n_llm_c -0.3079237
+ pid item 
+ 441   32 
+
+===== M2h harm ~ nl * ex + (1 | pid) + (1 | item)  n = 2651 
+               Estimate Std. Error z value Pr(>|z|)
+(Intercept)     -1.9739     0.3838 -5.1434   0.0000
+nlthree         -0.6559     0.1735 -3.7811   0.0002
+exexp2           0.5211     0.1668  3.1250   0.0018
+nlthree:exexp2  -0.4428     0.2450 -1.8075   0.0707
+   grp        var1 var2    sdcor
+1  pid (Intercept) <NA> 0.463444
+2 item (Intercept) <NA> 1.989123
+ pid item 
+ 438   32 
+
+===== M2b benefit ~ nl * ex + (1 | pid) + (1 | item)  n = 11461 
+               Estimate Std. Error z value Pr(>|z|)
+(Intercept)     -1.6765     0.4550 -3.6844   0.0002
+nlthree          0.5210     0.0878  5.9325   0.0000
+exexp2           0.2599     0.0874  2.9738   0.0029
+nlthree:exexp2  -0.2034     0.1241 -1.6397   0.1011
+   grp        var1 var2     sdcor
+1  pid (Intercept) <NA> 0.3422079
+2 item (Intercept) <NA> 2.5313669
+ pid item 
+ 441   32 
+
+===== M3 adopt_m ~ nl * ex + model_m + (1 | pid) + (1 | item:model_m)  n = 13979 
+                     Estimate Std. Error  z value Pr(>|z|)
+(Intercept)            0.0312     0.3470   0.0898   0.9285
+nlthree               -1.2976     0.0921 -14.0883   0.0000
+exexp2                 0.4994     0.0963   5.1849   0.0000
+model_mGPT-4o         -0.4567     0.4902  -0.9318   0.3514
+model_mLlama 3.1 70B  -0.2241     0.4810  -0.4659   0.6413
+nlthree:exexp2        -0.4734     0.1284  -3.6871   0.0002
+           grp        var1 var2     sdcor
+1          pid (Intercept) <NA> 0.4817572
+2 item:model_m (Intercept) <NA> 1.3459085
+         pid item:model_m 
+         441           47 
+
+===== M4 adopt_m ~ others_f + ex + model_m + (1 | pid) + (1 | item:model_m)  n = 13979 
+                                   Estimate Std. Error  z value Pr(>|z|)
+(Intercept)                          0.7869     0.0703  11.1995   0.0000
+others_fboth correct                -4.2952     0.1277 -33.6363   0.0000
+others_fone correct, one different  -3.0465     0.0871 -34.9624   0.0000
+others_fone correct, one agrees     -0.0937     0.0889  -1.0544   0.2917
+others_fboth wrong, none agree      -3.6623     0.1356 -27.0077   0.0000
+others_fboth wrong, one agrees      -0.0250     0.0946  -0.2646   0.7914
+exexp2                               0.2407     0.0683   3.5252   0.0004
+model_mGPT-4o                       -0.0045     0.0658  -0.0680   0.9458
+model_mLlama 3.1 70B                -0.0009     0.0601  -0.0146   0.9884
+           grp        var1 var2      sdcor
+1          pid (Intercept) <NA> 0.52940498
+2 item:model_m (Intercept) <NA> 0.06301039
+         pid item:model_m 
+         441           47 
+
+===== M5 follow_wrong ~ nl * ex + (1 | pid) + (1 | item)  n = 9194 
+               Estimate Std. Error  z value Pr(>|z|)
+(Intercept)     -0.1604     0.2581  -0.6217   0.5342
+nlthree         -1.3568     0.0874 -15.5198   0.0000
+exexp2           0.4484     0.0919   4.8810   0.0000
+nlthree:exexp2  -0.4246     0.1225  -3.4645   0.0005
+   grp        var1 var2     sdcor
+1  pid (Intercept) <NA> 0.3371725
+2 item (Intercept) <NA> 1.3053095
+ pid item 
+ 441   28 
+
+===== M7 adopt_m ~ gpt * nl + ex + (1 | pid) + (1 | item:model_m)  n = 13979 
+                 Estimate Std. Error  z value Pr(>|z|)
+(Intercept)       -0.3135     0.3691  -0.8493   0.3957
+gptother           0.3642     0.4406   0.8267   0.4084
+nlthree           -1.5134     0.1174 -12.8874   0.0000
+exexp2             0.2350     0.0647   3.6310   0.0003
+gptother:nlthree  -0.0233     0.1204  -0.1935   0.8466
+           grp        var1 var2     sdcor
+1          pid (Intercept) <NA> 0.4957283
+2 item:model_m (Intercept) <NA> 1.3512444
+         pid item:model_m 
+         441           47 

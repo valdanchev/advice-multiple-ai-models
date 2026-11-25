@@ -1,0 +1,10 @@
+Trials with two models agreeing on a wrong answer and a correct third model (initial answer not the shared error): 789
+Benchmark adopting the shared wrong answer, q from subject x confidence level: 1.000
+q by confidence level (pooled over subjects):
+conf_initial
+Confident                            0.225
+Neither confident nor unconfident    0.177
+Unconfident                          0.161
+Very confident                       0.241
+Very unconfident                     0.129
+max q used: 0.287

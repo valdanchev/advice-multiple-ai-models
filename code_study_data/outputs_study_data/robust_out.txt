@@ -1,0 +1,178 @@
+$main_M1
+        one       three         ame     emm_est     emm_lcl     emm_ucl 
+0.262024138 0.445256681 0.183232543 0.145740750 0.047800025 0.243681474 
+          p 
+0.003539538 
+
+$main_M3
+          one         three           ame       emm_est       emm_lcl 
+ 6.222597e-01  2.272431e-01 -3.950166e-01 -3.956137e-01 -4.457499e-01 
+      emm_ucl             p 
+-3.454776e-01  5.916946e-54 
+
+$base_rates
+$base_rates$natural_freq
+        3C       2C1W 1C2W-agree 1C2W-split 0C3W-agree   0C3W-2+1 0C3W-split 
+0.41578148 0.28597566 0.05098948 0.09271885 0.05325351 0.05873764 0.04254338 
+
+$base_rates$design_freq
+
+  0C3W-2+1 0C3W-split 1C2W-agree 1C2W-split       2C1W         3C 
+   0.09375    0.03125    0.12500    0.25000    0.37500    0.12500 
+
+$base_rates$M1_one
+[1] 0.1292743
+
+$base_rates$M1_three
+[1] 0.1501946
+
+$base_rates$M3_one
+[1] 0.7984383
+
+$base_rates$M3_three
+[1] 0.3413105
+
+
+$subject_fe_M1
+        one       three         ame     emm_est     emm_lcl     emm_ucl 
+0.264581561 0.445243023 0.180661462 0.146322252 0.047628111 0.245016392 
+          p 
+0.003663047 
+
+$no_math_M1
+       one      three        ame    emm_est    emm_lcl    emm_ucl          p 
+0.31237413 0.47641507 0.16404094 0.12637597 0.01469151 0.23806043 0.02656935 
+
+$no_math_M3
+          one         three           ame       emm_est       emm_lcl 
+ 5.763666e-01  1.988986e-01 -3.774679e-01 -3.736506e-01 -4.372155e-01 
+      emm_ucl             p 
+-3.100856e-01  1.032147e-30 
+
+$`M3_model_Llama 3.1 70B`
+          one         three           ame       emm_est       emm_lcl 
+ 6.177334e-01  1.616583e-01 -4.560751e-01 -4.560581e-01 -5.443880e-01 
+      emm_ucl             p 
+-3.677281e-01  4.526183e-24 
+
+$`M3_model_Claude 3.5 Sonnet`
+          one         three           ame       emm_est       emm_lcl 
+ 5.969178e-01  3.043528e-01 -2.925650e-01 -2.925650e-01 -3.432541e-01 
+      emm_ucl             p 
+-2.418759e-01  1.138862e-29 
+
+$`M3_model_GPT-4o`
+          one         three           ame       emm_est       emm_lcl 
+ 5.461281e-01  2.162335e-01 -3.298946e-01 -3.297912e-01 -4.216917e-01 
+      emm_ucl             p 
+-2.378908e-01  2.014632e-12 
+
+$OLS_HC3_final_correct
+
+t test of coefficients:
+
+              Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)  0.4142595  0.0078206 52.9704 < 2.2e-16 ***
+nl3          0.0816537  0.0112131  7.2820 1.544e-12 ***
+ex2          0.0364370  0.0096999  3.7564 0.0001957 ***
+nl3:ex2     -0.0245423  0.0146572 -1.6744 0.0947635 .  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+$MW_final_correct
+[1] 6.466592e-12 7.069816e-09
+
+$OLS_HC3_follow_wrong
+
+t test of coefficients:
+
+             Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)  0.319346   0.010786 29.6075 < 2.2e-16 ***
+nl3         -0.075667   0.013150 -5.7540 1.642e-08 ***
+ex2          0.050971   0.013624  3.7412 0.0002075 ***
+nl3:ex2     -0.037228   0.017277 -2.1547 0.0317293 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+$MW_follow_wrong
+[1] 5.459704e-09 1.851214e-17
+
+$excl_fast_M1
+        one       three         ame     emm_est     emm_lcl     emm_ucl 
+0.264192028 0.446597910 0.182405882 0.144960254 0.048017735 0.241902772 
+          p 
+0.003381157 
+
+$excl_fast_M3
+          one         three           ame       emm_est       emm_lcl 
+ 6.183883e-01  2.274019e-01 -3.909865e-01 -3.900073e-01 -4.412485e-01 
+      emm_ucl             p 
+-3.387661e-01  2.528749e-50 
+
+$init_wrong_M1
+       one      three        ame    emm_est    emm_lcl    emm_ucl          p 
+0.04301135 0.31716408 0.27415272 0.27414857 0.10077104 0.44752611 0.00194083 
+
+$no_ambig_M1
+       one      three        ame    emm_est    emm_lcl    emm_ucl          p 
+0.33632902 0.52986904 0.19354002 0.13639908 0.02944011 0.24335806 0.01243906 
+
+$no_ambig_M3
+          one         three           ame       emm_est       emm_lcl 
+ 6.808752e-01  1.980911e-01 -4.827842e-01 -4.858105e-01 -5.407032e-01 
+      emm_ucl             p 
+-4.309178e-01  2.112975e-67 
+
+$no_ambig_M4
+ others_f                        prob         SE  df asymp.LCL asymp.UCL
+ alone                      0.7995138 0.02166635 Inf 0.7570485 0.8419791
+ both correct               0.0511320 0.00865027 Inf 0.0341778 0.0680862
+ one correct, one different 0.1959780 0.02577264 Inf 0.1454646 0.2464915
+ one correct, one agrees    0.7592174 0.03403123 Inf 0.6925174 0.8259174
+ both wrong, none agree     0.0541066 0.01123768 Inf 0.0320812 0.0761321
+ both wrong, one agrees     0.7887522 0.02936936 Inf 0.7311893 0.8463151
+
+Results are averaged over the levels of: ex, model_m 
+Confidence level used: 0.95 
+
+$no_ambig_M2harm
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one  -0.0552 0.0409 Inf    -0.135     0.025  -1.348  0.1776
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+$time_OLS
+
+t test of coefficients:
+
+                            Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)                 1555.991     59.849 25.9987 < 2.2e-16 ***
+factor(n_llm)3                55.991     93.181  0.6009 0.5482262    
+factor(exp)2                 354.182    102.415  3.4583 0.0005969 ***
+factor(n_llm)3:factor(exp)2   90.573    151.225  0.5989 0.5495332    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+$time_medians
+  cond      min
+1   C1 23.73333
+2   C2 29.65000
+3   T1 23.98333
+4   T2 30.23333
+
+$M8
+         err_per100 sec_per_dec err_per_hour
+estimate   6.935567    3.133473     79.68169
+2.5%       5.528890   -1.525905   -550.67138
+50%        6.974360    3.022619     69.57290
+97.5%      8.488666    8.131155    801.58860
+
+$M8_AI_errors_per100
+  n_llm I(init_correct == 1 & final_correct == 0)
+1   100                                  3.878943
+2   300                                  1.839276
+

@@ -1,0 +1,27 @@
+{
+  "title": "Data and code for: Advice from multiple AI models reduces overreliance only when their errors diverge",
+  "upload_type": "software",
+  "description": "The paper studies overreliance on AI. It asks whether advice from three AI models built by different developers, rather than one, reduces how often people adopt a wrong AI answer, and whether this depends on the models making the same errors. Seeing three models reduced the adoption of wrong answers, but only when the models' errors diverged. A wrong answer repeated by a second model was adopted as often as a single model's wrong answer. This archive holds the analysis code, study materials, aggregate data and a simulated dataset for Studies 1–2 (N = 441) of 'Advice from multiple AI models reduces overreliance only when their errors diverge'. Individual-level data are not included: under the consent participants gave, they cannot be shared publicly but are available to qualified researchers on request. Code is released under the MIT License; data, materials and documentation under CC BY 4.0, except MMLU-Pro content (Apache 2.0).",
+  "creators": [
+    {
+      "name": "Danchev, Valentin",
+      "affiliation": "Queen Mary University of London",
+      "orcid": "0000-0002-7563-0168"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "AI advice",
+    "overreliance",
+    "human-AI decision-making",
+    "correlated errors",
+    "large language models"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/NRMKE",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

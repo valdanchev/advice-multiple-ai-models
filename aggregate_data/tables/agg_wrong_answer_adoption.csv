@@ -1,0 +1,141 @@
+cond,item,model,other_models,n_rows,n_adopted
+C1,5226,Claude 3.5 Sonnet,alone,100,54
+C1,5533,Llama 3.1 70B,alone,98,47
+C1,5678,Claude 3.5 Sonnet,alone,94,46
+C1,5678,Llama 3.1 70B,alone,94,46
+C1,5883,Claude 3.5 Sonnet,alone,85,64
+C1,5883,Llama 3.1 70B,alone,85,64
+C1,600,Llama 3.1 70B,alone,98,54
+C1,6064,Llama 3.1 70B,alone,93,67
+C1,612,GPT-4o,alone,98,75
+C1,6191,Claude 3.5 Sonnet,alone,104,84
+C1,6191,Llama 3.1 70B,alone,104,84
+C1,6274,Claude 3.5 Sonnet,alone,67,59
+C1,6634,Llama 3.1 70B,alone,91,66
+C1,671,Claude 3.5 Sonnet,alone,90,71
+C1,7832,GPT-4o,alone,83,70
+C1,7832,Llama 3.1 70B,alone,83,70
+C1,799,Claude 3.5 Sonnet,alone,95,73
+C1,799,GPT-4o,alone,95,73
+C1,8041,Llama 3.1 70B,alone,101,65
+C1,8153,GPT-4o,alone,91,80
+C1,8574,Claude 3.5 Sonnet,alone,100,66
+C1,8574,GPT-4o,alone,100,66
+C1,8705,Llama 3.1 70B,alone,107,83
+C2,5226,Claude 3.5 Sonnet,alone,103,86
+C2,5533,Llama 3.1 70B,alone,98,73
+C2,5678,Claude 3.5 Sonnet,alone,94,72
+C2,5678,Llama 3.1 70B,alone,94,72
+C2,5883,Claude 3.5 Sonnet,alone,80,71
+C2,5883,Llama 3.1 70B,alone,80,71
+C2,600,Llama 3.1 70B,alone,103,64
+C2,6064,Llama 3.1 70B,alone,91,78
+C2,612,GPT-4o,alone,99,81
+C2,6191,Claude 3.5 Sonnet,alone,105,92
+C2,6191,Llama 3.1 70B,alone,105,92
+C2,6274,Claude 3.5 Sonnet,alone,77,67
+C2,6634,Llama 3.1 70B,alone,98,74
+C2,671,Claude 3.5 Sonnet,alone,92,84
+C2,7832,GPT-4o,alone,81,71
+C2,7832,Llama 3.1 70B,alone,81,71
+C2,799,Claude 3.5 Sonnet,alone,97,87
+C2,799,GPT-4o,alone,97,87
+C2,8041,Llama 3.1 70B,alone,103,62
+C2,8153,GPT-4o,alone,94,90
+C2,8574,Claude 3.5 Sonnet,alone,99,59
+C2,8574,GPT-4o,alone,99,59
+C2,8705,Llama 3.1 70B,alone,107,92
+T1,5226,Claude 3.5 Sonnet,both correct,103,3
+T1,5311,GPT-4o,both correct,100,9
+T1,5312,Claude 3.5 Sonnet,"one correct, one different",99,5
+T1,5312,GPT-4o,"one correct, one different",110,12
+T1,5529,Llama 3.1 70B,both correct,86,2
+T1,5533,GPT-4o,"one correct, one different",100,6
+T1,5533,Llama 3.1 70B,"one correct, one different",101,23
+T1,5678,Claude 3.5 Sonnet,"one correct, one agrees",93,70
+T1,5678,Llama 3.1 70B,"one correct, one agrees",93,70
+T1,5883,Claude 3.5 Sonnet,"both wrong, one agrees",94,78
+T1,5883,GPT-4o,"both wrong, none agree",109,1
+T1,5883,Llama 3.1 70B,"both wrong, one agrees",94,78
+T1,599,Claude 3.5 Sonnet,"one correct, one different",84,15
+T1,600,Llama 3.1 70B,both correct,106,1
+T1,6061,Llama 3.1 70B,both correct,85,3
+T1,6064,GPT-4o,"one correct, one different",102,13
+T1,6064,Llama 3.1 70B,"one correct, one different",102,8
+T1,612,GPT-4o,"one correct, one different",92,29
+T1,612,Llama 3.1 70B,"one correct, one different",100,7
+T1,6191,Claude 3.5 Sonnet,"one correct, one agrees",104,84
+T1,6191,Llama 3.1 70B,"one correct, one agrees",104,84
+T1,6274,Claude 3.5 Sonnet,"one correct, one different",87,18
+T1,6274,GPT-4o,"one correct, one different",95,20
+T1,638,GPT-4o,both correct,97,8
+T1,6384,Claude 3.5 Sonnet,both correct,102,6
+T1,646,Claude 3.5 Sonnet,both correct,75,2
+T1,6630,GPT-4o,both correct,101,2
+T1,6634,Claude 3.5 Sonnet,"both wrong, none agree",95,11
+T1,6634,GPT-4o,"both wrong, none agree",102,21
+T1,6634,Llama 3.1 70B,"both wrong, none agree",88,7
+T1,671,Claude 3.5 Sonnet,"one correct, one different",91,14
+T1,671,Llama 3.1 70B,"one correct, one different",100,15
+T1,7730,Llama 3.1 70B,both correct,98,3
+T1,7832,GPT-4o,"one correct, one agrees",83,68
+T1,7832,Llama 3.1 70B,"one correct, one agrees",83,68
+T1,799,Claude 3.5 Sonnet,"both wrong, one agrees",101,82
+T1,799,GPT-4o,"both wrong, one agrees",101,82
+T1,799,Llama 3.1 70B,"both wrong, none agree",87,2
+T1,8041,Claude 3.5 Sonnet,"one correct, one different",98,5
+T1,8041,Llama 3.1 70B,"one correct, one different",103,17
+T1,8152,Claude 3.5 Sonnet,both correct,97,6
+T1,8153,GPT-4o,both correct,98,26
+T1,8574,Claude 3.5 Sonnet,"one correct, one agrees",104,70
+T1,8574,GPT-4o,"one correct, one agrees",104,70
+T1,8705,Claude 3.5 Sonnet,"both wrong, one agrees",106,87
+T1,8705,GPT-4o,"both wrong, one agrees",106,87
+T1,8705,Llama 3.1 70B,"both wrong, none agree",105,6
+T2,5226,Claude 3.5 Sonnet,both correct,105,13
+T2,5311,GPT-4o,both correct,98,5
+T2,5312,Claude 3.5 Sonnet,"one correct, one different",109,28
+T2,5312,GPT-4o,"one correct, one different",110,5
+T2,5529,Llama 3.1 70B,both correct,83,1
+T2,5533,GPT-4o,"one correct, one different",100,16
+T2,5533,Llama 3.1 70B,"one correct, one different",106,13
+T2,5678,Claude 3.5 Sonnet,"one correct, one agrees",102,81
+T2,5678,Llama 3.1 70B,"one correct, one agrees",102,81
+T2,5883,Claude 3.5 Sonnet,"both wrong, one agrees",84,65
+T2,5883,GPT-4o,"both wrong, none agree",108,8
+T2,5883,Llama 3.1 70B,"both wrong, one agrees",84,65
+T2,599,Claude 3.5 Sonnet,"one correct, one different",95,30
+T2,600,Llama 3.1 70B,both correct,105,4
+T2,6061,Llama 3.1 70B,both correct,88,9
+T2,6064,GPT-4o,"one correct, one different",105,16
+T2,6064,Llama 3.1 70B,"one correct, one different",91,14
+T2,612,GPT-4o,"one correct, one different",93,29
+T2,612,Llama 3.1 70B,"one correct, one different",101,6
+T2,6191,Claude 3.5 Sonnet,"one correct, one agrees",103,86
+T2,6191,Llama 3.1 70B,"one correct, one agrees",103,86
+T2,6274,Claude 3.5 Sonnet,"one correct, one different",77,16
+T2,6274,GPT-4o,"one correct, one different",101,22
+T2,638,GPT-4o,both correct,99,6
+T2,6384,Claude 3.5 Sonnet,both correct,97,3
+T2,646,Claude 3.5 Sonnet,both correct,75,4
+T2,6630,GPT-4o,both correct,97,5
+T2,6634,Claude 3.5 Sonnet,"both wrong, none agree",88,12
+T2,6634,GPT-4o,"both wrong, none agree",104,14
+T2,6634,Llama 3.1 70B,"both wrong, none agree",90,11
+T2,671,Claude 3.5 Sonnet,"one correct, one different",97,29
+T2,671,Llama 3.1 70B,"one correct, one different",99,5
+T2,7730,Llama 3.1 70B,both correct,95,3
+T2,7832,GPT-4o,"one correct, one agrees",93,78
+T2,7832,Llama 3.1 70B,"one correct, one agrees",93,78
+T2,799,Claude 3.5 Sonnet,"both wrong, one agrees",97,82
+T2,799,GPT-4o,"both wrong, one agrees",97,82
+T2,799,Llama 3.1 70B,"both wrong, none agree",90,1
+T2,8041,Claude 3.5 Sonnet,"one correct, one different",93,9
+T2,8041,Llama 3.1 70B,"one correct, one different",94,10
+T2,8152,Claude 3.5 Sonnet,both correct,91,4
+T2,8153,GPT-4o,both correct,93,8
+T2,8574,Claude 3.5 Sonnet,"one correct, one agrees",107,61
+T2,8574,GPT-4o,"one correct, one agrees",107,61
+T2,8705,Claude 3.5 Sonnet,"both wrong, one agrees",101,92
+T2,8705,GPT-4o,"both wrong, one agrees",101,92
+T2,8705,Llama 3.1 70B,"both wrong, none agree",106,2

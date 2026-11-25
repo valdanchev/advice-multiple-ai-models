@@ -1,0 +1,50 @@
+== 1. Net gain in accuracy (final_correct - init_correct, mean per participant; additional measure)
+Study 1: one 0.24 (0.23-0.26)  three 0.33 (0.31-0.35)  MW P = 1.6e-11
+Study 2: one 0.28 (0.26-0.29)  three 0.35 (0.33-0.37)  MW P = 7.3e-10
+
+== 2. Decision-level overreliance: items where the one-model condition's model was wrong (same items in both arms)
+decisions: 6267  items: 17 
+Study 1: one 0.70 (0.66-0.74)  three 0.50 (0.48-0.53)  MW P = 5.7e-13
+Study 2: one 0.80 (0.77-0.83)  three 0.51 (0.48-0.53)  MW P = 4e-25
+Pooled raw: one 0.755 three 0.507
+NOTE: Results may be misleading due to involvement in interactions
+ contrast    estimate     SE  df asymp.LCL asymp.UCL z.ratio p.value
+ three - one   -0.301 0.0321 Inf    -0.364    -0.238  -9.369  <.0001
+
+Results are averaged over the levels of: ex 
+Confidence level used: 0.95 
+
+== 3. Demographic moderators of the effect of three models
+used AI before: 2 439 
+degree: 144 290 7  female: 230 210 1 
+accuracy Z_age     interaction b = 0.034 (SE 0.061), P = 0.575
+adoption Z_age     interaction b = -0.069 (SE 0.096), P = 0.475
+accuracy female    interaction b = -0.051 (SE 0.121), P = 0.670
+adoption female    interaction b = -0.195 (SE 0.191), P = 0.309
+accuracy degree    interaction b = -0.032 (SE 0.128), P = 0.801
+adoption degree    interaction b = 0.143 (SE 0.201), P = 0.478
+Holm-adjusted:
+ accuracy Z_age  adoption Z_age accuracy female adoption female accuracy degree 
+              1               1               1               1               1 
+adoption degree 
+              1 
+
+== 4. Stimulus set: correctness correlation between models, wrong-answer agreement
+            adv_ChatGPT adv_Claude adv_Llama
+adv_ChatGPT           1          0         0
+adv_Claude            0          1         0
+adv_Llama             0          0         1
+per-model accuracy on stimuli: 0.5 0.5 0.5 
+pairs of models both wrong: 24; same wrong answer: 7 (29%; chance about 11%)
+
+== 5. Private knowledge and the benchmark
+shared wrong answer, third model correct: adoption 0.758 overall (n = 1578 rows); benchmark 1.000
+  initial answer correct: adoption 0.492 (n = 122 rows); benchmark 1.000
+  initial answer wrong: adoption 0.780 (n = 1456 rows); benchmark 1.000
+                        confidence initial_accuracy trials participants
+                  Very unconfident            0.129   2624           82
+                       Unconfident            0.161   6236          195
+ Neither confident nor unconfident            0.177   3167           99
+                         Confident            0.225   1759           55
+                    Very confident            0.241    320           10
+A benchmark using subject x confidence-level accuracy as the prior: see analysis/benchmark_confidence.py

@@ -1,0 +1,32 @@
+rows 13458  trials 8889 
+ contrast              estimate     SE  df asymp.LCL asymp.UCL
+ n_models3 - n_models1   -0.396 0.0256 Inf    -0.446    -0.345
+
+Results are averaged over the levels of: study, model 
+Confidence level used: 0.95 
+ contrast              estimate     SE  df z.ratio p.value
+ n_models3 - n_models1   -0.396 0.0256 Inf -15.467  <.0001
+
+Results are averaged over the levels of: study, model 
+ contrast              estimate     SE  df asymp.LCL asymp.UCL
+ n_models3 - n_models1   -0.765 0.0471 Inf    -0.857    -0.672
+
+Results are averaged over the levels of: study, model 
+Confidence level used: 0.95 
+ contrast              estimate     SE  df z.ratio p.value
+ n_models3 - n_models1   -0.765 0.0471 Inf -16.230  <.0001
+
+Results are averaged over the levels of: study, model 
+ Groups      Name        Std.Dev.
+ trial       (Intercept) 2.7944  
+ participant (Intercept) 1.1180  
+ im          (Intercept) 2.8425  
+Data: e
+Models:
+f0: adopt ~ n_models * study + model + (1 | participant) + (1 | im)
+f1: adopt ~ n_models * study + model + (1 | participant) + (1 | im) + (1 | trial)
+   npar   AIC   BIC  logLik deviance  Chisq Df Pr(>Chisq)    
+f0    8 12017 12077 -6000.4    12001                         
+f1    9 11516 11584 -5749.1    11498 502.58  1  < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

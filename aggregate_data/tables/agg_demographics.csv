@@ -1,0 +1,30 @@
+variable,level,C1,C2,T1,T2
+age,18 to 24,6,<5,suppressed,suppressed
+age,25 to 34,22,16,29,28
+age,35 to 44,27,32,27,32
+age,45 to 54,29,30,30,23
+age,55 to 64,20,22,14,19
+age,65 or over,6,suppressed,<5,<5
+gender,Female,suppressed,suppressed,59,suppressed
+gender,Male,60,55,suppressed,63
+gender,Prefer not to say,<5,<5,<5,<5
+education,Bachelors or equivalent first degree qualification,43,46,39,43
+education,Doctorate,<5,<5,6,<5
+education,High school,37,32,35,37
+education,Less than high school,<5,<5,<5,<5
+education,Masters or equivalent higher degree level qualification,16,18,15,21
+education,Other,<5,<5,<5,<5
+education,Postgraduate academic below-Masters level qualification (e.g. Certificate or Diploma),6,5,8,<5
+education,Professional degree,6,<5,5,<5
+used_ai,No,<5,<5,<5,<5
+used_ai,Yes,suppressed,suppressed,suppressed,suppressed
+conf_initial,Confident,17,suppressed,suppressed,suppressed
+conf_initial,Neither confident nor unconfident,27,16,27,29
+conf_initial,Unconfident,50,49,46,50
+conf_initial,Very confident,<5,<5,<5,<5
+conf_initial,Very unconfident,suppressed,30,20,18
+ai_reliable,Neither reliable nor unreliable,29,20,32,33
+ai_reliable,Reliable,69,65,61,50
+ai_reliable,Unreliable,<5,<5,14,21
+ai_reliable,Very reliable,8,23,<5,suppressed
+ai_reliable,Very unreliable,<5,<5,<5,<5

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below, and cite the paper."
+title: "Data and code for: Advice from multiple AI models reduces overreliance only when their errors diverge"
+version: 1.0.0
+date-released: 2026-11-25
+license: MIT
+authors:
+  - family-names: Danchev
+    given-names: Valentin
+    orcid: "https://orcid.org/0000-0002-7563-0168"
+    affiliation: "Queen Mary University of London"
+keywords:
+  - AI advice
+  - overreliance
+  - human-AI decision-making
+  - correlated errors
+  - large language models

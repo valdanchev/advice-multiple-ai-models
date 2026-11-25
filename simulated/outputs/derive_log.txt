@@ -1,0 +1,37 @@
+rho 0.353 pooled over pairs and the four subjects: 239/557 both-wrong pairs on the same option, chance 0.118; uncorrected for key errors
+p {
+"health_nutrition": {
+"ChatGPT": 0.7318435754189944,
+"Claude": 0.7262569832402235,
+"Llama": 0.6033519553072626
+},
+"business": {
+"ChatGPT": 0.8010139416983524,
+"Claude": 0.8136882129277566,
+"Llama": 0.4879594423320659
+},
+"college_mathematics": {
+"ChatGPT": 0.6891891891891891,
+"Claude": 0.7432432432432432,
+"Llama": 0.44594594594594594
+},
+"global_facts": {
+"ChatGPT": 0.6309523809523809,
+"Claude": 0.6785714285714286,
+"Llama": 0.5
+}
+}
+q {'business': 0.163, 'college_mathematics': 0.133, 'global_facts': 0.162, 'health_nutrition': 0.294}
+dm rows 13979
+                                   mean  size
+n_llm others                                 
+1     alone                       0.698  4560
+3     both correct                0.037  2406
+      both wrong, none agree      0.066  1214
+      both wrong, one agrees      0.692  1196
+      one correct, one agrees     0.688  1582
+      one correct, one different  0.115  3021
+       final_correct   harm  benefit  follow_wrong  switched  opt_switch
+n_llm                                                                   
+1              0.424  0.277    0.355         0.332     0.639       0.857
+3              0.487  0.178    0.410         0.208     0.559       0.817

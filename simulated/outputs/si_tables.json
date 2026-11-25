@@ -1,0 +1,440 @@
+{
+  "M1": {
+    "formula": "final_correct ~ nl * ex + init_correct + (1 | pid) + (1 + n_llm_c | item)",
+    "nobs": 14112,
+    "ngrps": {
+      "pid": 441,
+      "item": 32
+    },
+    "singular": false,
+    "fixed": [
+      {
+        "term": "(Intercept)",
+        "est": -1.87542076,
+        "se": 0.49554425,
+        "z": -3.78456766,
+        "p": 0.00015398
+      },
+      {
+        "term": "nlthree",
+        "est": 0.87950071,
+        "se": 0.35280763,
+        "z": 2.49286195,
+        "p": 0.01267181
+      },
+      {
+        "term": "exexp2",
+        "est": 0.13922945,
+        "se": 0.08445713,
+        "z": 1.64852218,
+        "p": 0.09924556
+      },
+      {
+        "term": "init_correct",
+        "est": 4.14218575,
+        "se": 0.1108998,
+        "z": 37.35070685,
+        "p": 2.46932172e-305
+      },
+      {
+        "term": "nlthree:exexp2",
+        "est": -0.09902522,
+        "se": 0.11527812,
+        "z": -0.85901142,
+        "p": 0.39033422
+      }
+    ],
+    "random": [
+      {
+        "grp": "pid",
+        "var1": "(Intercept)",
+        "sdcor": 0.27871129
+      },
+      {
+        "grp": "item",
+        "var1": "(Intercept)",
+        "sdcor": 2.31418094
+      },
+      {
+        "grp": "item",
+        "var1": "n_llm_c",
+        "sdcor": 1.93317141
+      },
+      {
+        "grp": "item",
+        "var1": "(Intercept)",
+        "var2": "n_llm_c",
+        "sdcor": -0.30792371
+      }
+    ],
+    "aic": 10041.27749883
+  },
+  "M2h": {
+    "formula": "harm ~ nl * ex + (1 | pid) + (1 | item)",
+    "nobs": 2651,
+    "ngrps": {
+      "pid": 438,
+      "item": 32
+    },
+    "singular": false,
+    "fixed": [
+      {
+        "term": "(Intercept)",
+        "est": -1.97388149,
+        "se": 0.38376873,
+        "z": -5.14341405,
+        "p": 2.69790112e-07
+      },
+      {
+        "term": "nlthree",
+        "est": -0.6558768,
+        "se": 0.17346156,
+        "z": -3.78110751,
+        "p": 0.00015613
+      },
+      {
+        "term": "exexp2",
+        "est": 0.52109681,
+        "se": 0.16675281,
+        "z": 3.12496573,
+        "p": 0.00177826
+      },
+      {
+        "term": "nlthree:exexp2",
+        "est": -0.44280513,
+        "se": 0.24498658,
+        "z": -1.80746693,
+        "p": 0.07068951
+      }
+    ],
+    "random": [
+      {
+        "grp": "pid",
+        "var1": "(Intercept)",
+        "sdcor": 0.46344398
+      },
+      {
+        "grp": "item",
+        "var1": "(Intercept)",
+        "sdcor": 1.98912342
+      }
+    ],
+    "aic": 2136.81013261
+  },
+  "M2b": {
+    "formula": "benefit ~ nl * ex + (1 | pid) + (1 | item)",
+    "nobs": 11461,
+    "ngrps": {
+      "pid": 441,
+      "item": 32
+    },
+    "singular": false,
+    "fixed": [
+      {
+        "term": "(Intercept)",
+        "est": -1.67650682,
+        "se": 0.45503356,
+        "z": -3.68435866,
+        "p": 0.00022928
+      },
+      {
+        "term": "nlthree",
+        "est": 0.52096359,
+        "se": 0.08781453,
+        "z": 5.9325442,
+        "p": 2.98276056e-09
+      },
+      {
+        "term": "exexp2",
+        "est": 0.25994582,
+        "se": 0.08741071,
+        "z": 2.97384413,
+        "p": 0.00294094
+      },
+      {
+        "term": "nlthree:exexp2",
+        "est": -0.20343411,
+        "se": 0.1240676,
+        "z": -1.63970374,
+        "p": 0.10106678
+      }
+    ],
+    "random": [
+      {
+        "grp": "pid",
+        "var1": "(Intercept)",
+        "sdcor": 0.34220788
+      },
+      {
+        "grp": "item",
+        "var1": "(Intercept)",
+        "sdcor": 2.53136694
+      }
+    ],
+    "aic": 9129.15419215
+  },
+  "M3": {
+    "formula": "adopt_m ~ nl * ex + model_m + (1 | pid) + (1 | item:model_m)",
+    "nobs": 13979,
+    "ngrps": {
+      "pid": 441,
+      "item:model_m": 47
+    },
+    "singular": false,
+    "fixed": [
+      {
+        "term": "(Intercept)",
+        "est": 0.03115062,
+        "se": 0.34700492,
+        "z": 0.08976997,
+        "p": 0.92847002
+      },
+      {
+        "term": "nlthree",
+        "est": -1.29762699,
+        "se": 0.092107,
+        "z": -14.08825527,
+        "p": 4.48505901e-45
+      },
+      {
+        "term": "exexp2",
+        "est": 0.49938183,
+        "se": 0.09631442,
+        "z": 5.18491215,
+        "p": 2.16116706e-07
+      },
+      {
+        "term": "model_mGPT-4o",
+        "est": -0.45673408,
+        "se": 0.49017254,
+        "z": -0.93178228,
+        "p": 0.35144905
+      },
+      {
+        "term": "model_mLlama 3.1 70B",
+        "est": -0.22410946,
+        "se": 0.48103309,
+        "z": -0.46589197,
+        "p": 0.64129283
+      },
+      {
+        "term": "nlthree:exexp2",
+        "est": -0.47340195,
+        "se": 0.12839547,
+        "z": -3.6870613,
+        "p": 0.00022686
+      }
+    ],
+    "random": [
+      {
+        "grp": "pid",
+        "var1": "(Intercept)",
+        "sdcor": 0.48175723
+      },
+      {
+        "grp": "item:model_m",
+        "var1": "(Intercept)",
+        "sdcor": 1.34590848
+      }
+    ],
+    "aic": 13538.71044084
+  },
+  "M4": {
+    "formula": "adopt_m ~ others_f + ex + model_m + (1 | pid) + (1 | item:model_m)",
+    "nobs": 13979,
+    "ngrps": {
+      "pid": 441,
+      "item:model_m": 47
+    },
+    "singular": false,
+    "fixed": [
+      {
+        "term": "(Intercept)",
+        "est": 0.78687945,
+        "se": 0.07026048,
+        "z": 11.19946059,
+        "p": 4.10223611e-29
+      },
+      {
+        "term": "others_fboth correct",
+        "est": -4.2952364,
+        "se": 0.12769636,
+        "z": -33.6363256,
+        "p": 4.94127438e-248
+      },
+      {
+        "term": "others_fone correct, one different",
+        "est": -3.04645608,
+        "se": 0.08713521,
+        "z": -34.96240042,
+        "p": 8.39135881e-268
+      },
+      {
+        "term": "others_fone correct, one agrees",
+        "est": -0.09370141,
+        "se": 0.08886708,
+        "z": -1.05439963,
+        "p": 0.29169999
+      },
+      {
+        "term": "others_fboth wrong, none agree",
+        "est": -3.66225612,
+        "se": 0.13560029,
+        "z": -27.0077303,
+        "p": 1.19911787e-160
+      },
+      {
+        "term": "others_fboth wrong, one agrees",
+        "est": -0.02502709,
+        "se": 0.09460049,
+        "z": -0.26455566,
+        "p": 0.79135178
+      },
+      {
+        "term": "exexp2",
+        "est": 0.24069384,
+        "se": 0.0682773,
+        "z": 3.52523946,
+        "p": 0.0004231
+      },
+      {
+        "term": "model_mGPT-4o",
+        "est": -0.00447832,
+        "se": 0.06584766,
+        "z": -0.06801036,
+        "p": 0.94577738
+      },
+      {
+        "term": "model_mLlama 3.1 70B",
+        "est": -0.00087399,
+        "se": 0.06005528,
+        "z": -0.01455313,
+        "p": 0.98838869
+      }
+    ],
+    "random": [
+      {
+        "grp": "pid",
+        "var1": "(Intercept)",
+        "sdcor": 0.52940498
+      },
+      {
+        "grp": "item:model_m",
+        "var1": "(Intercept)",
+        "sdcor": 0.06301039
+      }
+    ],
+    "aic": 12343.63405746
+  },
+  "M5": {
+    "formula": "follow_wrong ~ nl * ex + (1 | pid) + (1 | item)",
+    "nobs": 9194,
+    "ngrps": {
+      "pid": 441,
+      "item": 28
+    },
+    "singular": false,
+    "fixed": [
+      {
+        "term": "(Intercept)",
+        "est": -0.16043613,
+        "se": 0.25807735,
+        "z": -0.62165908,
+        "p": 0.53416606
+      },
+      {
+        "term": "nlthree",
+        "est": -1.35676734,
+        "se": 0.08742156,
+        "z": -15.51982547,
+        "p": 2.54742887e-54
+      },
+      {
+        "term": "exexp2",
+        "est": 0.44841484,
+        "se": 0.09186991,
+        "z": 4.88097634,
+        "p": 1.05561909e-06
+      },
+      {
+        "term": "nlthree:exexp2",
+        "est": -0.42455651,
+        "se": 0.12254498,
+        "z": -3.46449541,
+        "p": 0.00053123
+      }
+    ],
+    "random": [
+      {
+        "grp": "pid",
+        "var1": "(Intercept)",
+        "sdcor": 0.33717254
+      },
+      {
+        "grp": "item",
+        "var1": "(Intercept)",
+        "sdcor": 1.30530947
+      }
+    ],
+    "aic": 9368.85418908
+  },
+  "M7": {
+    "formula": "adopt_m ~ gpt * nl + ex + (1 | pid) + (1 | item:model_m)",
+    "nobs": 13979,
+    "ngrps": {
+      "pid": 441,
+      "item:model_m": 47
+    },
+    "singular": false,
+    "fixed": [
+      {
+        "term": "(Intercept)",
+        "est": -0.31347953,
+        "se": 0.36912038,
+        "z": -0.84926097,
+        "p": 0.3957361
+      },
+      {
+        "term": "gptother",
+        "est": 0.36421582,
+        "se": 0.44056217,
+        "z": 0.82670699,
+        "p": 0.40840316
+      },
+      {
+        "term": "nlthree",
+        "est": -1.51344375,
+        "se": 0.11743587,
+        "z": -12.8874056,
+        "p": 5.29968354e-38
+      },
+      {
+        "term": "exexp2",
+        "est": 0.2349817,
+        "se": 0.06471567,
+        "z": 3.63098614,
+        "p": 0.00028234
+      },
+      {
+        "term": "gptother:nlthree",
+        "est": -0.02330031,
+        "se": 0.12040185,
+        "z": -0.19352122,
+        "p": 0.84655079
+      }
+    ],
+    "random": [
+      {
+        "grp": "pid",
+        "var1": "(Intercept)",
+        "sdcor": 0.49572827
+      },
+      {
+        "grp": "item:model_m",
+        "var1": "(Intercept)",
+        "sdcor": 1.35124437
+      }
+    ],
+    "aic": 13550.26600481
+  }
+}

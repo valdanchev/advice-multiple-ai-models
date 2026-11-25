@@ -1,0 +1,34 @@
+$M9_levels_conf_initial
+
+                        Confident Neither confident nor unconfident 
+                              100                               178 
+                      Unconfident                    Very confident 
+                              109                                26 
+                 Very unconfident 
+                               28 
+
+$M9_used_ai
+
+ No Yes 
+  6 435 
+
+$M9_Z_conf
+  Estimate Std. Error    z value   Pr(>|z|) 
+0.11391182 0.05745004 1.98279790 0.04739001 
+
+$M9_Z_ai
+   Estimate  Std. Error     z value    Pr(>|z|) 
+-0.04393772  0.05815573 -0.75551837  0.44993802 
+
+$M9_Z_skill
+   Estimate  Std. Error     z value    Pr(>|z|) 
+0.001702352 0.057667610 0.029520067 0.976449815 
+
+$M9_Z_bus
+  Estimate Std. Error    z value   Pr(>|z|) 
+0.01699724 0.79780012 0.02130514 0.98300224 
+
+$M9_holm
+ Z_conf    Z_ai Z_skill   Z_bus 
+0.18956 1.00000 1.00000 1.00000 
+

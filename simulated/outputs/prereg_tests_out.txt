@@ -1,0 +1,53 @@
+PARTICIPANT-LEVEL MEANS (95% CI = mean +/- 1.96 SE) AND TWO-SIDED MANN-WHITNEY TESTS
+
+overreliance (each wrong answer shown counts once; preregistered)
+  C1: 0.596 (0.568 to 0.623), n = 110
+  T1: 0.241 (0.228 to 0.253), n = 111
+  T2: 0.239 (0.226 to 0.252), n = 110
+  C2: 0.674 (0.648 to 0.699), n = 110
+  H1, preregistered (prereg C2 vs T2): C1 vs T1, P = 5.4e-36
+  H2, preregistered (prereg T2 vs T4): T1 vs T2, P = 0.91
+  Study 2, added comparison (not preregistered): C2 vs T2, P = 4e-37
+  One model, reasoning vs none (not randomised): C1 vs C2, P = 9e-05
+
+overreliance (each question weighted equally; sensitivity)
+  C1: 0.596 (0.568 to 0.623), n = 110
+  T1: 0.186 (0.175 to 0.197), n = 111
+  T2: 0.187 (0.177 to 0.198), n = 110
+  C2: 0.674 (0.648 to 0.699), n = 110
+  H1, preregistered (prereg C2 vs T2): C1 vs T1, P = 2.4e-37
+  H2, preregistered (prereg T2 vs T4): T1 vs T2, P = 0.74
+  Study 2, added comparison (not preregistered): C2 vs T2, P = 1.2e-37
+  One model, reasoning vs none (not randomised): C1 vs C2, P = 9e-05
+
+final accuracy (preregistered)
+  C1: 0.417 (0.402 to 0.431), n = 110
+  T1: 0.490 (0.475 to 0.506), n = 111
+  T2: 0.484 (0.468 to 0.499), n = 110
+  C2: 0.432 (0.419 to 0.445), n = 110
+  H1, preregistered (prereg C2 vs T2): C1 vs T1, P = 2.6e-09
+  H2, preregistered (prereg T2 vs T4): T1 vs T2, P = 0.64
+  Study 2, added comparison (not preregistered): C2 vs T2, P = 7.1e-06
+  One model, reasoning vs none (not randomised): C1 vs C2, P = 0.13
+
+net gain in accuracy (additional)
+  C1: 0.230 (0.215 to 0.246), n = 110
+  T1: 0.291 (0.275 to 0.307), n = 111
+  T2: 0.310 (0.293 to 0.326), n = 110
+  C2: 0.240 (0.223 to 0.257), n = 110
+  H1, preregistered (prereg C2 vs T2): C1 vs T1, P = 1.1e-06
+  H2, preregistered (prereg T2 vs T4): T1 vs T2, P = 0.17
+  Study 2, added comparison (not preregistered): C2 vs T2, P = 2e-07
+  One model, reasoning vs none (not randomised): C1 vs C2, P = 0.28
+
+BALANCE ACROSS CONDITIONS
+  initial accuracy: {'C1': 0.186, 'C2': 0.192, 'T1': 0.199, 'T2': 0.174} Kruskal-Wallis P = 0.15
+  age_band: chi-square across 4 conditions P = 0.159; C2 vs the other three P = 0.100
+  gender: chi-square across 4 conditions P = 0.791; C2 vs the other three P = 0.826
+  education: chi-square across 4 conditions P = 0.378; C2 vs the other three P = 0.456
+  used_ai_chatbots_before: chi-square across 4 conditions P = 0.107; C2 vs the other three P = 0.344
+  confidence_initial_answers: chi-square across 4 conditions P = 0.523; C2 vs the other three P = 0.903
+  'Very unconfident' share: C2 0.06 vs others 0.06 (rated after the task)
+
+MATCHED ADOPTION OF THE SAME WRONG ANSWER: RAW DIFFERENCE WITH PARTICIPANT-CLUSTER BOOTSTRAP (rows from one decision stay together)
+  alone 0.698, with others 0.258; difference -0.440 (95% CI -0.463 to -0.417); 2,000 resamples

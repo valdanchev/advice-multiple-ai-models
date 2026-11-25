@@ -1,0 +1,19 @@
+        3C       2C1W 1C2W-agree 1C2W-split 0C3W-agree   0C3W-2+1 0C3W-split 
+     0.416      0.286      0.051      0.093      0.053      0.059      0.043 
+             one three
+0C3W-2+1   0.038 0.018
+0C3W-split 0.032 0.050
+1C2W-agree 0.016 0.088
+1C2W-split 0.257 0.309
+2C1W       0.693 0.796
+3C         0.814 0.896
+             one three
+0C3W-2+1   0.824 0.560
+0C3W-split 0.741 0.134
+1C2W-agree 0.737 0.758
+1C2W-split 0.749 0.155
+2C1W       0.727 0.060
+         acc.one acc.three adopt.one adopt.three
+estimate   0.597     0.672     0.743       0.205
+2.5%       0.582     0.661     0.715       0.197
+97.5%      0.611     0.683     0.773       0.214
